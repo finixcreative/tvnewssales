@@ -1,0 +1,16 @@
+body {
+	background: rgba(0,0,0,0.2);
+}
+form {
+	background: #fff;
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	top: 70px;
+	position: relative;
+}
+li:active,
+li:hover {
+	background: #ff9933;
+	color: #fff;
+}

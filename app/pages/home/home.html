@@ -1,0 +1,89 @@
+<div id="content">
+	<form name="input" method="post" action="mailto:rsmith@finixcreative.com">
+		<div class="publications wrapper">
+			<ul>
+				<li ng-repeat="product in display.products | orderBy: 'title' | filter: searchTitles">
+					<h5>{{ product.title }}</h5>
+					<input type="checkbox" name="magazine" value="{{ product.title }}">
+					<a href="#"><img ng-src="{{ product.image }}"/></a>
+					</input>
+				</li>
+			</ul>
+			<div id="displayracks">
+				<h4>Free Display Racks!</h4>
+				<p>20-pocket Display <span class="italics">(minimum 20 titles)</span></p>
+				<p>15-pocket Sophisticate Display <span class="italics">(minimum 15 Adult titles)</span></p>
+				<p>23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></p>
+			</div>
+		</div>
+	</form>
+	<div class="overlay">
+		<form class="order">
+			<section ng-controller="PanelController as panel">
+				<ul class="checkout nav">
+					<li ng-class="{ active:panel.isSelected(1) }">
+						<a href ng-click="panel.selectTab(1)">General Info</a>
+					</li>
+					<li ng-class="{ active:panel.isSelected(2) }">
+						<a href ng-click="panel.selectTab(2)">Mailing Info</a>
+					</li>
+					<li ng-class="{ active:panel.isSelected(3) }">
+						<a href ng-click="panel.selectTab(3)">Billing Info</a>
+					</li>
+					<li ng-class="{ active:panel.isSelected(4) }">
+						<a href ng-click="panel.selectTab(4)">Confirm</a>
+					</li>
+				</ul>
+				<div class="panel" ng-show="panel.isSelected(1)">
+					<h3>Step 1: General Info</h3>
+					<input type="text" name="" value="" placeholder="Store Name" required>
+					<input type="text" name="" value="" placeholder="Email" required>
+					<input type="text" name="" value="" placeholder="Phone" required>
+					<input type="text" name="" value="" placeholder="Cell">
+					<input type="text" name="" value="" placeholder="Fax" required>
+				</div>
+				<div class="panel" ng-show="panel.isSelected(2)">
+					<h3>Step 2: Mailing Info</h3>
+					<input type="text" name="" value="" placeholder="Address" required>
+					<input type="text" name="" value="" placeholder="Address 2">
+					<input type="text" name="" value="" placeholder="City" required>
+					<input type="text" name="" value="" placeholder="State" required>
+					<input type="text" name="" value="" placeholder="Zip" required>
+					<h3>UPS Shipping (if different from US Mail)</h3>
+					<input type="text" name="" value="" placeholder="Address">
+					<input type="text" name="" value="" placeholder="Address 2">
+					<input type="text" name="" value="" placeholder="City">
+					<input type="text" name="" value="" placeholder="State">
+					<input type="text" name="" value="" placeholder="Zip">
+				</div>
+				<div class="panel" ng-show="panel.isSelected(3)">
+					<h3>Step 3: Billing Info (if different from US Mail)</h3>
+					<input type="text" name="" value="" placeholder="Address">
+					<input type="text" name="" value="" placeholder="Address 2">
+					<input type="text" name="" value="" placeholder="City">
+					<input type="text" name="" value="" placeholder="State">
+					<input type="text" name="" value="" placeholder="Zip">
+					<p>Credit Check</p>
+					<select name="ownership" required>
+						<option value="proprietorship" disabled="disabled">- Select One -</option>
+						<option value="proprietorship">Proprietorship</option>
+						<option value="partnership">Partnership</option>
+						<option value="corporation">Corporation</option>
+					</select>
+					<input type="text" name="" value="" placeholder="Federal IDN" required>
+					<input type="text" name="" value="" placeholder="Supplier 1">
+					<input type="text" name="" value="" placeholder="Supplier 2">
+					<input type="text" name="" value="" placeholder="Address 1">
+					<input type="text" name="" value="" placeholder="Address 2">
+					<input type="text" name="" value="" placeholder="Phone 1">
+					<input type="text" name="" value="" placeholder="Phone 2">
+				</div>
+				<div class="panel" ng-show="panel.isSelected(4)">
+					<h3>Step 4: Confirm Order</h3>
+					<p>By clicking "sign up" below, you agree to our <a href="http://www.tvnewssalesco.com/our-program.html" target="blank">terms & conditions</a>.</p>
+					<input type="submit" value="Sign Up!">
+				</div>
+			</section>
+		</form>
+	</div>
+</div>

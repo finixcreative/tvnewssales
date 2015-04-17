@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="display">
+	<head>
+		<link type="text/css" rel="stylesheet" href="assets/css/styles.css"/>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-route.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-resource.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-animate.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-touch.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script type='text/javascript' src='app/app.js'></script>
+		<script type='text/javascript' src='app/routes.js'></script>
+		<script type="text/javascript" src="assets/js/magazines.js"></script>
+	</head>
+	<body ng-controller="DisplayController as display">
+		<appheader class='full'></appheader>
+		<div class='main full' ng-view></div>
+		<appfooter class='full'></appfooter>
+	</body>
+</html>

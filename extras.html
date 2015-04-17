@@ -1,0 +1,82 @@
+<head>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>	
+	<script type="text/javascript" src="js/app.js"></script>	
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="css/extras.css" type="text/css"/>
+</head>
+<div id="signup">
+	<form>
+		<section ng-controller="PanelController as panel">
+			<ul class="checkout nav">
+				<li ng-class="{ active:panel.isSelected(1) }">
+					<a href ng-click="panel.selectTab(1)">General Info</a>
+				</li>
+				<li ng-class="{ active:panel.isSelected(2) }">
+					<a href ng-click="panel.selectTab(2)">Mailing Info</a>
+				</li>
+				<li ng-class="{ active:panel.isSelected(3) }">
+					<a href ng-click="panel.selectTab(3)">Billing Info</a>
+				</li>
+				<li ng-class="{ active:panel.isSelected(4) }">
+					<a href ng-click="panel.selectTab(4)">Confirm</a>
+				</li>
+			</ul>
+			{{ panel.isSelected }}
+			<div class="panel" ng-show="panel.isSelected(1)">
+				<h3>Step {{panel.isSelected}}: General Info</h3>
+				<input type="text" name="" value="" placeholder="Store Name" required>
+				<input type="text" name="" value="" placeholder="Email" required>
+				<input type="text" name="" value="" placeholder="Phone" required>
+				<input type="text" name="" value="" placeholder="Cell">
+				<input type="text" name="" value="" placeholder="Fax" required>
+				<button ng-click="nextTab()"></button>
+			</div>
+			<div class="panel" ng-show="panel.isSelected(2)">
+				<h3>Step {{panel.isSelected}}: Mailing Info</h3>
+				<input type="text" name="" value="" placeholder="Address" required>
+				<input type="text" name="" value="" placeholder="Address 2">
+				<input type="text" name="" value="" placeholder="City" required>
+				<input type="text" name="" value="" placeholder="State" required>
+				<input type="text" name="" value="" placeholder="Zip" required>
+				<h3>UPS Shipping (if different from US Mail)</h3>
+				<input type="text" name="" value="" placeholder="Address">
+				<input type="text" name="" value="" placeholder="Address 2">
+				<input type="text" name="" value="" placeholder="City">
+				<input type="text" name="" value="" placeholder="State">
+				<input type="text" name="" value="" placeholder="Zip">
+			</div>
+			<div class="panel" ng-show="panel.isSelected(3)">
+				<h3>Step {{panel.isSelected}}: Billing Info (if different from US Mail)</h3>
+				<input type="text" name="" value="" placeholder="Address">
+				<input type="text" name="" value="" placeholder="Address 2">
+				<input type="text" name="" value="" placeholder="City">
+				<input type="text" name="" value="" placeholder="State">
+				<input type="text" name="" value="" placeholder="Zip">
+				<p>Credit Check</p>
+				<select name="ownership" required>
+					<option value="proprietorship" disabled="disabled">- Select One -</option>
+					<option value="proprietorship">Proprietorship</option>
+					<option value="partnership">Partnership</option>
+					<option value="corporation">Corporation</option>
+				</select>
+				<input type="text" name="" value="" placeholder="Federal IDN" required>
+				<input type="text" name="" value="" placeholder="Supplier 1">
+				<input type="text" name="" value="" placeholder="Supplier 2">
+				<input type="text" name="" value="" placeholder="Address 1">
+				<input type="text" name="" value="" placeholder="Address 2">
+				<input type="text" name="" value="" placeholder="Phone 1">
+				<input type="text" name="" value="" placeholder="Phone 2">
+			</div>
+			<div class="panel" ng-show="panel.isSelected(4)">
+				<div class="order">
+					<div id="submit" class="button">
+						<h3>Step {{panel.isSelected}}: Confirm Order</h3>
+						<p>By clicking "sign up" below, you agree to our <a href="http://www.tvnewssalesco.com/our-program.html" target="blank">terms & conditions</a>.</p>
+						<input type="submit" value="Sign Up!">
+					</div>
+				</div>
+			</div>
+		</section>
+	</form>
+</div>
