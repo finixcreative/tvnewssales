@@ -84,6 +84,9 @@ input:hover {
 input[type=checkbox] {
 	display: none;
 }
+input[type=checkbox]:checked {
+	box-shadow: 0 0 0 3pt #00cc00;
+}
 input[type=search] {
 	border: none;
 }
