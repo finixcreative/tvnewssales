@@ -2,8 +2,6 @@ angular.module('finixApp', [
 	'ngRoute',
 	'ngAnimate',
 	'productsMod',
-//	'articlesMod',
-	'profilesMod',
 	'slidesMod',
 	'headerMod',
 	'navMod',
@@ -11,10 +9,11 @@ angular.module('finixApp', [
 	'contactMod',
 	'copyrightMod',
 	'socialMod',
-	'tabsMod'
+	'tabsMod',
+	'displayMod'
 ]);
 
-angular.module('display', [])
+angular.module('displayMod', [])
 	.controller('PanelController', function(){
 		this.tab = 1;
 		this.selectTab = function(setTab){
@@ -28,7 +27,7 @@ angular.module('display', [])
 		};
 	});
 
-angular.module('display')
+angular.module('displayMod')
 	.controller('DisplayController', function(){
 		this.products = magazines;
 	});
