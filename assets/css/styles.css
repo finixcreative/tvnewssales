@@ -207,6 +207,7 @@ footer input {
 	position: fixed;
 	top: 0;
 	bottom: 0;
+	display: none;
 }
 form.order {
 	background: #fff;
