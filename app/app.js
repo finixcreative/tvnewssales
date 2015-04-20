@@ -1,15 +1,13 @@
 angular.module('finixApp', [
 	'ngRoute',
 	'ngAnimate',
-	'productsMod',
-	'slidesMod',
-	'headerMod',
-	'navMod',
-	'footerMod',
 	'contactMod',
 	'copyrightMod',
+	'displayMod',
+	'footerMod',
+	'headerMod',
+	'navMod',
+	'panelMod'
 	'socialMod',
 	'tabsMod',
-	'displayMod',
-	'panelMod'
 ]);
