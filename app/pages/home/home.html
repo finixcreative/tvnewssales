@@ -3,10 +3,14 @@
 		<div class="publications wrapper">
 			<ul>
 				<li ng-repeat="product in display.products | orderBy: 'title' | filter: searchTitles">
-					<h5>{{ product.title }}</h5>
-					<input type="checkbox" name="magazine" value="{{ product.title }}">
-					<a href="#"><img ng-src="{{ product.image }}"/></a>
-					</input>
+					<label for="{{ product.title }}">
+						<h5>{{ product.title }}</h5>
+						<input type="checkbox" name="{{ product.title }}" value="selected">
+							<a href="#">
+								<img ng-src="{{ product.image }}"/>
+							</a>
+						</input>
+					</label>
 				</li>
 			</ul>
 			<div id="displayracks">
