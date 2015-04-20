@@ -1,0 +1,29 @@
+<?php
+	if (isset($_POST['terms'])) {
+		// PREPARE THE BODY OF THE MESSAGE
+		$message = '<html><body>';
+		$message .= '<img src="http://www.tvnewssalesco.com/uploads/5/1/1/7/5117216/header_images/1371300607.jpg" alt="TV News Sales Banner" />';
+		$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
+		$message .= "<tr><td><strong>Store Name:</strong> </td><td>" . strip_tags($_POST['store-name']) . "</td></tr>";
+		$message .= "<tr><td><strong>Owner Name:</strong> </td><td>" . strip_tags($_POST['owner-name']) . "</td></tr>";
+		$message .= "<tr><td><strong>Company Type:</strong> </td><td>" . strip_tags($_POST['company-type']) . "</td></tr>";
+		$message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
+		$message .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($_POST['phone']) . "</td></tr>";
+		$message .= "<tr><td><strong>Cell:</strong> </td><td>" . strip_tags($_POST['cell']) . "</td></tr>";
+		$message .= "<tr><td><strong>Fax:</strong> </td><td>" . strip_tags($_POST['fax']) . "</td></tr>";
+		$message .= "</table>";
+		$message .= "</body></html>";
+		//   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
+		$to = 'rsmith@finixcreative.com';
+		$subject = 'Order Form';
+		$headers = "From: rsmith@finixcreative.com";
+		$headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+		if (mail($to, $subject, $message, $headers)) {
+			echo 'Your message has been sent.';
+		} else {
+			echo 'There was a problem sending the email.';
+		}
+		// DON'T BOTHER CONTINUING TO THE HTML...
+		die();
+	}
+?>
