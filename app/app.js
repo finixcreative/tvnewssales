@@ -7,7 +7,7 @@ angular.module('finixApp', [
 	'footerMod',
 	'headerMod',
 	'navMod',
-	'panelMod'
+	'panelMod',
 	'socialMod',
-	'tabsMod',
+	'tabsMod'
 ]);
