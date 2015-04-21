@@ -2,12 +2,14 @@
 	<form name="input" method="post" action="mailto:rsmith@finixcreative.com">
 		<div class="publications wrapper">
 			<ul>
-				<li class="fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
+				<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
 					<label for="{{ product.title }}">
-						<h5>{{ product.title }}</h5>
 						<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
 							<img class="checkbox-image full" ng-src="{{ product.image }}"/>
 						</input>
+						<div class="profile text-box">
+							<h5>{{ product.title }}</h5>
+						</div>
 					</label>
 				</li>
 			</ul>
