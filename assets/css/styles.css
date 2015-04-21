@@ -92,7 +92,7 @@ ul li img:hover,
 ul li img:active {
 	box-shadow: 0 0 0 3pt #00cc00;
 }
-li .tile {
+li.tile {
 	position: relative;
 	border: 1px solid #fff;
 }
