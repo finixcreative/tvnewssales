@@ -87,6 +87,9 @@ input[type=checkbox] {
 input[type=checkbox]:checked img.checkbox-image {
 	box-shadow: 0 0 0 3pt #00cc00;
 }
+img.checkbox-image:hover {
+	cursor: pointer;
+}
 input[type=search] {
 	border: none;
 }
