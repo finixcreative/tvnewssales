@@ -183,9 +183,7 @@ footer input {
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
-	position: absolute;
-	top: 74px;
-	bottom: 70px;
+	padding: 74px 0 70px;
 }
 .publications {
 	width: 100%;
