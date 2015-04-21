@@ -1,8 +1,10 @@
 <div id="content">
-	<form name="input" method="post" action="mailto:rsmith@finixcreative.com">
+	<form class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com">
 		<div class="publications wrapper">
-			<h1>Order</h1>
-			<p>Select titles below</p>
+			<div class="content full">
+				<h1>Order</h1>
+				<p>Select titles below</p>
+			</div>
 			<ul>
 				<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
 					<label for="{{ product.title }}">
