@@ -377,7 +377,7 @@ var magazines = [
 	},
 	{
 		title: 'Pre-K to Grade 1 Learning Fun',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/no-pic.jpg',
 		genre: '08 - Children'
 	},
 	{
