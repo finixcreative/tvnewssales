@@ -2,393 +2,393 @@ var magazines = [
 	{
 		title: 'National Enquirer',
 		image: 'assets/images/national_enquirer.jpg',
-		genre: '1 - Tabloid'
+		genre: '01 - Tabloid'
 	},
 	{
 		title: 'National Examiner',
 		image: 'assets/images/national_examiner.jpg',
-		genre: '1 - Tabloid'
+		genre: '01 - Tabloid'
 	},
 	{
 		title: 'Globe',
 		image: 'assets/images/globe.jpg',
-		genre: '1 - Tabloid'
+		genre: '01 - Tabloid'
 	},
 	{
 		title: 'Star',
 		image: 'assets/images/star.jpg',
-		genre: '1 - Tabloid'
+		genre: '01 - Tabloid'
 	},
 	{
 		title: 'Country Weekly',
 		image: 'assets/images/country_weekly.jpg',
-		genre: '1 - Tabloid'
+		genre: '01 - Tabloid'
 	},
 	{
 		title: 'In Touch Weekly',
 		image: 'assets/images/in_touch_weekly.jpg',
-		genre: '2 - News & Entertainment'
+		genre: '02 - News & Entertainment'
 	},
 	{
 		title: 'Life & Style',
 		image: 'assets/images/life_style.jpg',
-		genre: '2 - News & Entertainment'
+		genre: '02 - News & Entertainment'
 	},
 	{
 		title: 'OK Magazine',
 		image: 'assets/images/ok_magazine.jpg',
-		genre: '2 - News & Entertainment'
+		genre: '02 - News & Entertainment'
 	},
 	{
 		title: 'People Weekly',
 		image: 'assets/images/people_weekly.jpg',
-		genre: '2 - News & Entertainment'
+		genre: '02 - News & Entertainment'
 	},
 	{
 		title: 'Soap Opera Digest',
 		image: 'assets/images/soap_opera_digest.jpg',
-		genre: '2 - News & Entertainment'
+		genre: '02 - News & Entertainment'
 	},
 	{
 		title: 'Time',
 		image: 'assets/images/time.jpg',
-		genre: '2 - News & Entertainment'
+		genre: '02 - News & Entertainment'
 	},
 	{
 		title: 'US Weekly',
 		image: 'assets/images/us_weekly.jpg',
-		genre: '2 - News & Entertainment'
+		genre: '02 - News & Entertainment'
 	},
 
 	{
 		title: 'Boating',
 		image: 'assets/images/boating.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Field & Stream',
 		image: 'assets/images/field_stream.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Fitness Rx for Men',
 		image: 'assets/images/fitness_rx_men.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Fitness Rx for Women',
 		image: 'assets/images/fitness_rx_women.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Flex',
 		image: 'assets/images/flex.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Fly Rod & Reel',
 		image: 'assets/images/fly_rod_reel.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Golf Digest',
 		image: 'assets/images/golf_digest.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Hunting',
 		image: 'assets/images/hunting.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'In-Fisherman',
 		image: 'assets/images/in_fisherman.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Mens Fitness',
 		image: 'assets/images/mens_fitness.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Mens Health',
 		image: 'assets/images/mens_health.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Muscle & Fitness',
 		image: 'assets/images/muscle_fitness.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Natural Health',
 		image: 'assets/images/natural_health.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Outdoor Life',
 		image: 'assets/images/outdoor_life.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Prevention',
 		image: 'assets/images/prevention.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Runners World',
 		image: 'assets/images/runners_world.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Shape',
 		image: 'assets/images/shape.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Sport Fishing',
 		image: 'assets/images/sport_fishing.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Sports Illustrated',
 		image: 'assets/images/sports_illustrated.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'Weight Watchers',
 		image: 'assets/images/weight_watchers.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 	{
 		title: 'WWE Smackdown',
 		image: 'assets/images/wwe_smackdown.jpg',
-		genre: '3 - Sports & Health'
+		genre: '03 - Sports & Health'
 	},
 
 	{
 		title: 'Details',
 		image: 'assets/images/details.jpg',
-		genre: '4 - Men & Fashion'
+		genre: '04 - Men & Fashion'
 	},
 	{
 		title: 'GQ',
 		image: 'assets/images/gq.jpg',
-		genre: '4 - Men & Fashion'
+		genre: '04 - Men & Fashion'
 	},
 	{
 		title: 'Maxim',
 		image: 'assets/images/maxim.jpg',
-		genre: '4 - Men & Fashion'
+		genre: '04 - Men & Fashion'
 	},
 
 	{
 		title: 'American Iron',
 		image: 'assets/images/american_iron.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Auto Round-Up',
 		image: 'assets/images/auto_round_up.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Auto / Truck Roundup',
 		image: 'assets/images/auto_truck_roundup.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Car & Driver',
 		image: 'assets/images/car_driver.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Car Craft',
 		image: 'assets/images/car_craft.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Cycle World',
 		image: 'assets/images/cycle_world.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 /*		{
 		title: 'Easy Rider',
 		image: 'assets/images/easy_rider.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 */
 	{
 		title: 'Four Wheeler',
 		image: 'assets/images/four_wheeler.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Hot Rod',
 		image: 'assets/images/hot_rod.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Motor Trend',
 		image: 'assets/images/motor_trend.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Off Road',
 		image: 'assets/images/off_road.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Popular Hotrodding',
 		image: 'assets/images/popular_hotrodding.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Road & Track',
 		image: 'assets/images/road_track.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Motorcycle Bagger',
 		image: 'assets/images/motorcycle_bagger.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Truck Roundup',
 		image: 'assets/images/truck_roundup.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 	{
 		title: 'Truckin',
 		image: 'assets/images/truckin.jpg',
-		genre: '5 - Auto & Racing'
+		genre: '05 - Auto & Racing'
 	},
 
 	{
 		title: 'Allure',
 		image: 'assets/images/allure.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Cosmopolitan',
 		image: 'assets/images/cosmopolitan.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Elle',
 		image: 'assets/images/elle.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Family Circle',
 		image: 'assets/images/family_circle.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'First For Women',
 		image: 'assets/images/first_for_women.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Glamour',
 		image: 'assets/images/glamour.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Good Housekeeping',
 		image: 'assets/images/good_housekeeping.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Harpers Bazaar',
 		image: 'assets/images/harpers_bazaar.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'In Style',
 		image: 'assets/images/in_style.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Ladies Home Journal',
 		image: 'assets/images/ladies_home_journal.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Marie Claire',
 		image: 'assets/images/marie_claire.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Oprah',
 		image: 'assets/images/oprah.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Redbook',
 		image: 'assets/images/redbook.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Self',
 		image: 'assets/images/self.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Vanity Fair',
 		image: 'assets/images/vanity_fair.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Vogue',
 		image: 'assets/images/vogue.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Womans Day',
 		image: 'assets/images/womans_day.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 	{
 		title: 'Womans World',
 		image: 'assets/images/womans_world.jpg',
-		genre: '6 - Women & Fashion'
+		genre: '06 - Women & Fashion'
 	},
 
 	{
 		title: 'Entrepreneur',
 		image: 'assets/images/entrepreneur.jpg',
-		genre: '7 - Business'
+		genre: '07 - Business'
 	},
 	{
 		title: 'Forbes',
 		image: 'assets/images/forbes.jpg',
-		genre: '7 - Business'
+		genre: '07 - Business'
 	},
 	{
 		title: 'Home Business',
 		image: 'assets/images/home_business.jpg',
-		genre: '7 - Business'
+		genre: '07 - Business'
 	},
 	{
 		title: 'Highlights For Children',
 		image: 'assets/images/highlights_for_children.jpg',
-		genre: '8 - Children'
+		genre: '08 - Children'
 	},
 	{
 		title: 'Pre-K to Grade 1 Learning Fun',
 		image: 'assets/images/.jpg',
-		genre: '8 - Children'
+		genre: '08 - Children'
 	},
 	{
 		title: 'Wired',
 		image: 'assets/images/wired.jpg',
-		genre: '9 - Computer'
+		genre: '09 - Computer'
 	},
 	{
 		title: 'X-Box',
 		image: 'assets/images/xbox.jpg',
-		genre: '9 - Computer'
+		genre: '09 - Computer'
 	},
 
 	{
