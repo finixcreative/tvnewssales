@@ -130,7 +130,7 @@ input[type=search] {
 }
 input[type=search]:hover,
 input[type=search]:focus {
-	border: none;
+	border: 1px solid #fff;
 }
 input[type=submit] {
 	background: #ffffff;
