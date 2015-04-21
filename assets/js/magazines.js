@@ -495,149 +495,146 @@ var magazines = [
 		image: 'assets/images/world_of_sudoku.jpg',
 		genre: 'Puzzles & Crosswords'
 	},
-
-/*		{
+	{
 		title: 'Beaver Hunt',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Cheri',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Club',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Club Confidential',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Club International',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Club Spec.',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Erotic Film Guide',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Fox',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Gallery',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Girls of Penthouse',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'High Society',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Hustler / Best of Hustler',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Hustler Barely Legal',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Hustler Comix',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Hustler Fantasies',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Hustlers Lingerie',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Hustler Taboo',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Lollypops',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Nasty Housewives',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Penthouse',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Penthouse Forum',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Penthouse Letters',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Playboy',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Playboy Calendars',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Playboy Specials',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Swank',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: 'Variations',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
 	{
 		title: '30+ 40+ 50+',
-		image: 'assets/images/.jpg',
+		image: 'assets/images/xxx.jpg',
 		genre: 'Adult Sophisticates'
 	},
-*/
-
 	{
 		title: 'Ebony',
 		image: 'assets/images/ebony.jpg',
