@@ -99,13 +99,13 @@ li.tile {
 li .text-box {
 	background: rgba(68,68,68,0.8);
 	color: #fff;
-	width: 100%;
 	height: 100%;
 	padding: 20px;
 	position: absolute;
 	top: 0;
 	text-align: center;
 	display: none;
+	cursor: pointer;
 }
 li:hover .text-box {
 	display: block;
@@ -124,9 +124,7 @@ input[type=checkbox] {
 input[type=checkbox]:checked img.checkbox-image {
 	box-shadow: 0 0 0 3pt #00cc00;
 }
-img.checkbox-image:hover {
-	cursor: pointer;
-}
+img.checkbox-image:hover {}
 input[type=search] {
 	border: none;
 }
