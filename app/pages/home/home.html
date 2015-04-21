@@ -2,7 +2,7 @@
 	<form name="input" method="post" action="mailto:rsmith@finixcreative.com">
 		<div class="publications wrapper">
 			<ul>
-				<li ng-repeat="product in display.products | orderBy: 'title' | filter: searchTitles">
+				<li ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
 					<label for="{{ product.title }}">
 						<h5>{{ product.title }}</h5>
 						<input type="checkbox" name="{{ product.title }}" value="selected">
