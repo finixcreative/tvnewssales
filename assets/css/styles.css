@@ -28,6 +28,7 @@ p {
 header {
 	background: #444;
 	width: 100%;
+	border-bottom: 1px solid #ccc;
 	float: left;
 	position: fixed;
 	z-index: 999;
@@ -126,6 +127,7 @@ footer {
 	color: #fff;
 	width: 100%;
 	padding: 20px 0;
+	border-top: 1px solid #ccc;
 	position: fixed;
 	bottom: 0px;			
 	z-index: 999;
