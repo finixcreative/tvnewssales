@@ -1,86 +1,34 @@
 <nav class="desktop full">
-	<ul class="constrain" ng-controller="TabController">
+	<ul class="wrapper">
 		<li>
-			<a href="#/#">
-				<span class="icon-finix"></span>
-			</a>
+			<a href="#/#">Home</a>
 		</li>
 		<li>
-			<a href="#/products/#">Products</a>
-			<ul class="dropdown full">
-				<li class="web fifth">
-					<a class="full" href="#/products/web/#">
-						<span class="icon-web"></span><br>Web
-					</a>
-				</li>
-				<li class="brand fifth">
-					<a class="full" href="#/products/brand/#">
-						<span class="icon-brand"></span><br>Brand
-					</a>
-				</li>
-				<li class="email fifth">
-					<a class="full" href="#/products/email/#">
-						<span class="icon-email"></span><br>Email
-					</a>
-				</li>
-				<li class="print fifth">
-					<a class="full" href="#/products/print/#">
-						<span class="icon-print"></span><br>Print
-					</a>
-				</li>
-				<li class="social fifth">
-					<a class="full" href="#/products/social/#">
-						<span class="icon-social"></span><br>Social
-					</a>
-				</li>
-			</ul>
+			<a href="#/order/#">Order</a>
 		</li>
 		<li>
-			<a href="#/support/#">Support</a>
-		</li>
-		<!--
-		<li>
-			<a href="#/articles/#">Articles</a>
-		</li>
-		-->
-		<li>
-			<a href="#/about/#">About</a>
+			<a href="#/learn/#">Learn</a>
 		</li>
 		<li>
 			<a href="#/contact/#">Contact</a>
 		</li>
+		<input type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
 	</ul>
 </nav>
 <nav class="tablet mobile full">
-	<ul class="constrain" ng-controller="TabController">
+	<ul class="wrapper">
 		<li>
-			<a href="#/#">
-				<span class="icon-finix"></span>
-			</a>
+			<a href="#/#">Home</a>
 		</li>
 		<li>
-			<a href="">
-				<span class="icon-menu"></span>
-			</a>
-			<ul class="subnav">
-				<li class="full">
-					<a href="#/products/#">Products</a>
-				</li>
-				<li class="full">
-					<a href="#/support/#">Support</a>
-				</li>
-				<!--
-				<li class="full"">
-					<a href="#/articles/#">Articles</a>
-				</li>
-				-->
-				<li class="full">
-					<a href="#/about/#">About</a>
-				</li>
-			</ul>
+			<a href="#/order/#">Order</a>
+		</li>
+		<li>
+			<a href="#/learn/#">Learn</a>
 		</li>
 		<li>
 			<a href="#/contact/#">Contact</a>
 		</li>
 	</ul>
+	<input class="full" type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
 </nav>
