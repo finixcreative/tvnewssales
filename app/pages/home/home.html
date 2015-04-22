@@ -1,11 +1,13 @@
 <div id="content" class="full">
+	<div class="wrapper">
+		<div class="content full">
+			<img class="full" src="assets/images/logo-TVNS.png"/>
+			<h1>Order</h1>
+			<p>Select titles below</p>
+		</div>
+	</div>
 	<form class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com">
 		<div class="publications wrapper">
-			<div class="content full">
-				<img class="full" src="assets/images/logo-TVNS.png"/>
-				<h1>Order</h1>
-				<p>Select titles below</p>
-			</div>
 			<ul>
 				<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
 					<label for="{{ product.title }}">
