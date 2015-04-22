@@ -1,21 +1,26 @@
-<div class="body full">
-	<div class="constrain">
+<div id="content" class="full">
+	<div class="wrapper">
 		<div class="content full">
-			<h1>Order Magazines</h1>
-			<h2>Select any number of titles</h2>
+			<img class="full" src="assets/images/logo-TVNS.png"/>
+			<h1>Order</h1>
+			<p>Select titles below</p>
 		</div>
 	</div>
-	<form name="input" method="post" action="mailto:rsmith@finixcreative.com">
+	<form class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com">
 		<div class="publications wrapper">
 			<ul>
-				<li ng-repeat="product in display.products | orderBy: 'title' | filter: searchTitles">
-					<h5>{{ product.title }}</h5>
-					<input type="checkbox" name="magazine" value="{{ product.title }}">
-					<a href="#"><img ng-src="{{ product.image }}"/></a>
-					</input>
+				<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
+					<label for="{{ product.title }}">
+						<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
+							<img class="checkbox-image full" ng-src="{{ product.image }}"/>
+						</input>
+						<div class="text-box full">
+							<h4>{{ product.title }}</h4>
+						</div>
+					</label>
 				</li>
 			</ul>
-			<div id="displayracks">
+			<div id="displayracks" class="full">
 				<h4>Free Display Racks!</h4>
 				<p>20-pocket Display <span class="italics">(minimum 20 titles)</span></p>
 				<p>15-pocket Sophisticate Display <span class="italics">(minimum 15 Adult titles)</span></p>
@@ -23,16 +28,4 @@
 			</div>
 		</div>
 	</form>
-
-	<ul id="tiles full">
-		<li class="tile fifth" ng-repeat="product in products.products">
-			<a class="full" href="#/products/{{product.name}}/#">
-				<img class="full" src="{{product.background.src}}" alt="{{product.background.alt}}"/>
-				<div class="product text-box">
-					<img class="icon" src="{{product.icon.src}}" alt="{{product.icon.alt}}"/>
-					<h3>{{product.name}}</h3>
-				</div>
-			</a>
-		</li>
-	</ul>
 </div>
