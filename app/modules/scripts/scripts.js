@@ -28,18 +28,6 @@ var scripts = [
 		extension: "-ctrl",
 	},
 	{
-		directory: "scripts",
-		extension: "",
-	},
-	{
-		directory: "scripts",
-		extension: "-ctrl",
-	},
-	{
-		directory: "scripts",
-		extension: "-drv",
-	},
-	{
 		directory: "social",
 		extension: "",
 	},
