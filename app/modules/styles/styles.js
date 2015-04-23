@@ -1,0 +1,5 @@
+var styles = [
+	{
+		stylesheet: "styles",
+	},
+];
