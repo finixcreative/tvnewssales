@@ -1,6 +1,7 @@
 angular.module('finixApp', [
 	'ngRoute',
 	'ngAnimate',
+	'contactMod',
 	'copyrightMod',
 	'displayMod',
 	'footerMod',
@@ -9,6 +10,5 @@ angular.module('finixApp', [
 	'panelMod',
 	'scriptsMod',
 	'socialMod',
-	'stylesMod',
-	'contactMod'
+	'stylesMod'
 ]);
