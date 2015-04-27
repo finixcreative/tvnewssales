@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app='finixApp'>
 	<head>
+		<link type="text/css" rel="stylesheet" href="assets/css/styles.css"/>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.js'></script>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-route.js'></script>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-resource.js'></script>
@@ -11,8 +12,16 @@
 		<script type='text/javascript' src='app/routes.js'></script>
 		<script type='text/javascript' src='assets/js/magazines.js'></script>
 		<!-- Module Scripts -->
-		<styles></styles>
-		<scripts></scripts>
+		<script type='text/javascript' src='app/modules/contact/contact-drv.js'></script>
+		<script type='text/javascript' src='app/modules/copyright/copyright-drv.js'></script>
+		<script type='text/javascript' src='app/modules/display/display-ctrl.js'></script>
+		<script type='text/javascript' src='app/modules/footer/footer-drv.js'></script>
+		<script type='text/javascript' src='app/modules/header/header-drv.js'></script>
+		<script type='text/javascript' src='app/modules/nav/nav-drv.js'></script>
+		<script type='text/javascript' src='app/modules/panel/panel-ctrl.js'></script>
+		<script type='text/javascript' src='app/modules/social/social.js'></script>
+		<script type='text/javascript' src='app/modules/social/social-ctrl.js'></script>
+		<script type='text/javascript' src='app/modules/social/social-drv.js'></script>
 	</head>
 	<body ng-controller='DisplayController as display'>
 		<appheader class='full'></appheader>
