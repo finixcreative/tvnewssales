@@ -190,6 +190,9 @@ footer input {
 .content {
 	padding: 20px;
 }
+.subsection {
+	background: #fff;
+}
 .publications {
 	width: 100%;
 }
