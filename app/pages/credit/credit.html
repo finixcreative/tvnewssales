@@ -1,7 +1,7 @@
 <div class="wrapper">
 	<form class="order full">
 		<section>
-			<ul class="checkout nav">
+			<ul class="checkout nav full">
 				<li ng-class="{ active:panel.isSelected(1) }">
 					<a href ng-click="panel.selectTab(1)">General Info</a>
 				</li>
@@ -18,7 +18,7 @@
 					<a href ng-click="panel.selectTab(5)">Confirm Order</a>
 				</li>
 			</ul>
-			<div class="panel" ng-show="panel.isSelected(1)">
+			<div class="panel full" ng-show="panel.isSelected(1)">
 				<h3>Step 1: General Info</h3>
 				<input type="text" name="" value="" placeholder="Store Name" required>
 				<input type="text" name="" value="" placeholder="Email" required>
@@ -26,7 +26,7 @@
 				<input type="text" name="" value="" placeholder="Cell">
 				<input type="text" name="" value="" placeholder="Fax" required>
 			</div>
-			<div class="panel" ng-show="panel.isSelected(2)">
+			<div class="panel full" ng-show="panel.isSelected(2)">
 				<h3>Step 2: Mailing Info</h3>
 				<input type="text" name="" value="" placeholder="Address" required>
 				<input type="text" name="" value="" placeholder="Address 2">
@@ -40,7 +40,7 @@
 				<input type="text" name="" value="" placeholder="State">
 				<input type="text" name="" value="" placeholder="Zip">
 			</div>
-			<div class="panel" ng-show="panel.isSelected(3)">
+			<div class="panel full" ng-show="panel.isSelected(3)">
 				<h3>Step 3: Billing Info (if different from US Mail)</h3>
 				<input type="text" name="" value="" placeholder="Address">
 				<input type="text" name="" value="" placeholder="Address 2">
@@ -62,7 +62,7 @@
 				<input type="text" name="" value="" placeholder="Phone 1">
 				<input type="text" name="" value="" placeholder="Phone 2">
 			</div>
-			<div class="panel" ng-show="panel.isSelected(4)">
+			<div class="panel full" ng-show="panel.isSelected(4)">
 				<h3>Step 5: Special Offers</h3>
 				<p>Free display racks available with qualifying orders!</p>
 				<input type="checkbox" name="20-pocket Display" value="selected"/>
@@ -73,7 +73,7 @@
 				<label for="23-pocket Sophisticate Display">23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></label>
 			</div>
 
-			<div class="panel" ng-show="panel.isSelected(5)">
+			<div class="panel full" ng-show="panel.isSelected(5)">
 				<h3>Step 5: Confirm Order</h3>
 				<p>By clicking "sign up" below, you agree to our <a href="http://www.tvnewssalesco.com/our-program.html" target="blank">terms & conditions</a>.</p>
 				<input type="submit" value="Sign Up!">
