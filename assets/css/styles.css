@@ -64,14 +64,6 @@ header a img {
 	width: auto;
 	height: 30px;
 }
-header input {
-	width: 200px;
-	height: 30px;
-	border-radius: 30px;
-	margin: 20px;
-	padding: 0 10px;
-	float: left;
-}
 ul {
 	width: 100%;
 	padding: 0;
@@ -133,7 +125,10 @@ input[type=checkbox]:checked img.checkbox-image {
 }
 img.checkbox-image:hover {}
 input[type=search] {
+	height: 30px;
+	padding: 0 10px;
 	border: 1px solid #ccc;
+	border-radius: 30px;
 }
 input[type=search]:hover,
 input[type=search]:focus {
