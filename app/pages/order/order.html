@@ -6,7 +6,7 @@
 	<div class="content half">
 		<h3>Find</h3>
 		<input class="full" type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
-		<select class="full" name="filter" ng-model="searchTitles">
+		<select class="full" name="filter" ng-model="filterTitles">
 			<option value="" selected disabled>Filter</option>
 			<option value="Tabloids">Tabloids</option>
 			<option value="News & Entertainment">News &amp; Entertainment</option>
@@ -21,13 +21,12 @@
 			<option value=""></option>
 			<option value=""></option>
 		</select>
-		<input class="full" type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
 	</div>
 </div>
 <form class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com">
 	<div class="publications wrapper">
 		<ul>
-			<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
+			<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: ['searchTitles', 'filterTitles']">
 				<label for="{{ product.title }}">
 					<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
 						<img class="checkbox-image full" ng-src="{{ product.image }}"/>
