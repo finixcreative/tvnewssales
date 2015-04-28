@@ -124,14 +124,17 @@ input[type=checkbox]:checked img.checkbox-image {
 	box-shadow: 0 0 0 3pt #3af;
 }
 img.checkbox-image:hover {}
-input[type=search] {
+input[type=search],
+select {
 	height: 30px;
 	padding: 0 10px;
 	border: 1px solid #ccc;
 	border-radius: 30px;
 }
 input[type=search]:hover,
-input[type=search]:focus {
+input[type=search]:focus,
+select:hover,
+select:focus {
 	border: 1px solid #fff;
 }
 input[type=submit] {
