@@ -112,6 +112,9 @@ li .text-box {
 li:hover .text-box {
 	display: none;
 }
+li:hover .tile {
+	border: 1px solid #3af;
+}
 form {
 	width: 100%;
 }
