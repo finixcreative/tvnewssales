@@ -129,6 +129,7 @@ img.checkbox-image:hover {}
 input[type=search],
 select {
 	height: 30px;
+	margin-bottom: 10px;
 	padding: 0 10px;
 	border: 1px solid #ccc;
 	border-radius: 30px;
