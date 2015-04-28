@@ -4,6 +4,23 @@
 		<p>Select titles below</p>
 	</div>
 	<div class="content half">
+		<h3>Find</h3>
+		<input class="full" type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
+		<select class="full" name="filter" ng-model="searchTitles">
+			<option value="" selected disabled>Filter</option>
+			<option value="Tabloids">Tabloids</option>
+			<option value="News & Entertainment">News &amp; Entertainment</option>
+			<option value="Sports & Health">Sports &amp; Health</option>
+			<option value="Men & Fashion">Men &amp; Fashion</option>
+			<option value="Auto & Racing">Auto &amp; Racing</option>
+			<option value="Women & Fashion">Women &amp; Fashion</option>
+			<option value="Business">Business</option>
+			<option value="Children">Children</option>
+			<option value="Computer">Computer</option>
+			<option value=""></option>
+			<option value=""></option>
+			<option value=""></option>
+		</select>
 		<input class="full" type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
 	</div>
 </div>
