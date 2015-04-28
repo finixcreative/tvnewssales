@@ -2,7 +2,7 @@
 --------------------------
 TV NEWS SALES BRAND GUIDE
 --------------------------
-Primary Color    | #
+Primary Color    | #3af
 Secondary Color  | #
 Primary Accent   | #
 Primary Fill     | #
@@ -52,11 +52,13 @@ header {
 	z-index: 999;
 }
 header a {
+	color: #ccc;
 	padding: 20px;
 	float: left;
+	font-weight: 700;
 }
 header a:hover {
-	background: rgba(68,68,68,0.2);
+	color: #3af;
 }
 header a img {
 	width: auto;
