@@ -106,11 +106,11 @@ li .text-box {
 	position: absolute;
 	top: 0;
 	text-align: center;
-	display: none;
+	display: block;
 	cursor: pointer;
 }
 li:hover .text-box {
-	display: block;
+	display: none;
 }
 form {
 	width: 100%;
