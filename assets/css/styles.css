@@ -193,6 +193,9 @@ footer input {
 .subsection {
 	background: #fff;
 }
+.center {
+	text-align: center;
+}
 .publications {
 	width: 100%;
 }
