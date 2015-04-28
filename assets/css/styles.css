@@ -92,7 +92,7 @@ ul li img {
 }
 ul li img:hover,
 ul li img:active {
-	box-shadow: 0 0 0 3pt #00cc00;
+	box-shadow: 0 0 0 3pt #3af;
 }
 li.tile {
 	position: relative;
@@ -117,7 +117,7 @@ form {
 }
 input:focus,
 input:hover {
-	box-shadow: 0 0 0 3pt #00cc00;
+	box-shadow: 0 0 0 3pt #3af;
 	outline: none;
 }
 input[type=checkbox] {
@@ -128,7 +128,7 @@ input[type=checkbox]:checked img.checkbox-image {
 }
 img.checkbox-image:hover {}
 input[type=search] {
-	border: 1px solid #444;
+	border: 2px solid #ccc;
 }
 input[type=search]:hover,
 input[type=search]:focus {
