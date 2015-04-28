@@ -12,7 +12,10 @@
 					<a href ng-click="panel.selectTab(3)">Billing Info</a>
 				</li>
 				<li ng-class="{ active:panel.isSelected(4) }">
-					<a href ng-click="panel.selectTab(4)">Confirm</a>
+					<a href ng-click="panel.selectTab(4)">Special Offers</a>
+				</li>
+				<li ng-class="{ active:panel.isSelected(5) }">
+					<a href ng-click="panel.selectTab(5)">Confirm Order</a>
 				</li>
 			</ul>
 			<div class="panel" ng-show="panel.isSelected(1)">
@@ -60,7 +63,18 @@
 				<input type="text" name="" value="" placeholder="Phone 2">
 			</div>
 			<div class="panel" ng-show="panel.isSelected(4)">
-				<h3>Step 4: Confirm Order</h3>
+				<h3>Step 5: Special Offers</h3>
+				<p>Free display racks available with qualifying orders!</p>
+				<input type="checkbox" name="20-pocket Display" value="selected"/>
+				<label for="20-pocket Display">20-pocket Display <span class="italics">(minimum 20 titles)</span></label>
+				<input type="checkbox" name="15-pocket Sophisticate Display" value="selected"/>
+				<label for="15-pocket Sophisticate Display">15-pocket Sophisticate Display <span class="italics">(minimum 15 Adult titles)</span></label>
+				<input type="checkbox" name="23-pocket Sophisticate Display" value="selected"/>
+				<label for="23-pocket Sophisticate Display">23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></label>
+			</div>
+
+			<div class="panel" ng-show="panel.isSelected(5)">
+				<h3>Step 5: Confirm Order</h3>
 				<p>By clicking "sign up" below, you agree to our <a href="http://www.tvnewssalesco.com/our-program.html" target="blank">terms & conditions</a>.</p>
 				<input type="submit" value="Sign Up!">
 			</div>
