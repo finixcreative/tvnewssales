@@ -97,6 +97,7 @@ ul li img:active {
 li.tile {
 	position: relative;
 	border: 1px solid #fff;
+	z-index: 2;
 }
 li .text-box {
 	background: rgba(68,68,68,0.8);
@@ -109,11 +110,12 @@ li .text-box {
 	display: block;
 	cursor: pointer;
 }
-li:hover .text-box {
-	display: none;
-}
 li:hover .tile {
 	border: 1px solid #3af;
+	z-index: 3;
+}
+li:hover .text-box {
+	display: none;
 }
 form {
 	width: 100%;
