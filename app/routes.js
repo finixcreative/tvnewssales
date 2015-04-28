@@ -11,8 +11,8 @@ angular.module('finixApp')
 			})
 			.when('/credit', {
 				templateUrl: 'app/pages/credit/credit.html',
-				controller: 'FormfieldsController',
-				controllerAs: 'formfields',
+				controller: 'PanelController',
+				controllerAs: 'panel',
 			})
 			.when('/learn', {
 				templateUrl: 'app/pages/learn/learn.html',

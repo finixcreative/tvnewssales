@@ -1,30 +1,28 @@
-<div id="content" class="full">
-	<div class="wrapper">
-		<div class="content full">
-			<h1>Order</h1>
-			<p>Select titles below</p>
+<div class="wrapper">
+	<div class="content full">
+		<h1>Order</h1>
+		<p>Select titles below</p>
+	</div>
+</div>
+<form class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com">
+	<div class="publications wrapper">
+		<ul>
+			<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
+				<label for="{{ product.title }}">
+					<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
+						<img class="checkbox-image full" ng-src="{{ product.image }}"/>
+					</input>
+					<div class="text-box full">
+						<h4>{{ product.title }}</h4>
+					</div>
+				</label>
+			</li>
+		</ul>
+		<div id="displayracks" class="full">
+			<h4>Free Display Racks!</h4>
+			<p>20-pocket Display <span class="italics">(minimum 20 titles)</span></p>
+			<p>15-pocket Sophisticate Display <span class="italics">(minimum 15 Adult titles)</span></p>
+			<p>23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></p>
 		</div>
 	</div>
-	<form class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com">
-		<div class="publications wrapper">
-			<ul>
-				<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles">
-					<label for="{{ product.title }}">
-						<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
-							<img class="checkbox-image full" ng-src="{{ product.image }}"/>
-						</input>
-						<div class="text-box full">
-							<h4>{{ product.title }}</h4>
-						</div>
-					</label>
-				</li>
-			</ul>
-			<div id="displayracks" class="full">
-				<h4>Free Display Racks!</h4>
-				<p>20-pocket Display <span class="italics">(minimum 20 titles)</span></p>
-				<p>15-pocket Sophisticate Display <span class="italics">(minimum 15 Adult titles)</span></p>
-				<p>23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></p>
-			</div>
-		</div>
-	</form>
-</div>
+</form>
