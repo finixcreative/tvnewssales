@@ -168,9 +168,7 @@ footer {
 	width: 100%;
 	padding: 20px 0;
 	border-top: 1px solid #ccc;
-	position: fixed;
-	bottom: 0px;			
-	z-index: 999;
+	position: absolute;
 }
 footer input {
 	float: right;
@@ -185,7 +183,7 @@ footer input {
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
-	padding: 74px 0 70px;
+	padding: 74px 0 0 0;
 }
 .content {
 	padding: 20px;
