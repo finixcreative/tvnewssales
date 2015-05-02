@@ -87,12 +87,7 @@ ul li a {
 	display: block;
 }
 ul li img {
-	background: #ccc;
 	height: 200px;
-}
-ul li img:hover,
-ul li img:active {
-	box-shadow: 0 0 0 3pt #3af;
 }
 li.tile {
 	position: relative;
@@ -140,6 +135,7 @@ form.order li:hover {
 	color: #fff;
 }
 .button {
+	background: none;
 	color: #444;
 	border: 1px solid #444;
 	border-radius: 100px;
