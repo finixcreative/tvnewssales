@@ -163,15 +163,12 @@ input:focus,
 input:hover,
 select:focus,
 select:hover {
-	box-shadow: 0 0 0 3pt #3af;
 	outline: none;
 }
 input[type=checkbox] {
 	display: none;
 }
-input[type=checkbox]:checked img.checkbox-image {
-	box-shadow: 0 0 0 3pt #3af;
-}
+input[type=checkbox]:checked img.checkbox-image {}
 img.checkbox-image:hover {}
 input[type=search],
 select {
