@@ -197,6 +197,9 @@ footer p a {
 footer p a:hover {
 	color: #3af;
 }
+.copyright p a:hover {
+	color: #f52;
+}
 .wrapper {
 	width: 100%;
 	max-width: 960px;
