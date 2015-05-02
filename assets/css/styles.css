@@ -216,11 +216,11 @@ footer p a:hover {
 .subsection {
 	background: #fff;
 }
-.subsection a {
+.subsection p a {
 	font-weight: 700;
 	color: #444;
 }
-.subsection a:hover {
+.subsection p a:hover {
 	color: #3af;
 }
 .subsection-alt {
