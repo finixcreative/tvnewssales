@@ -1,4 +1,4 @@
 angular.module('socialMod', [])
-	.controller('SocialmediaController', function(){
+	.controller('SocialController', function(){
 		this.socials = socials;
 	});
