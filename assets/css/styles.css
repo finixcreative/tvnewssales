@@ -92,13 +92,13 @@ ul li img {
 li.tile {
 	border: 1px solid #fff;
 	position: relative;
-	cursor: pointer;
 }
 li.tile:hover,
 li.tile:active,
 li.tile:focus,
 li.tile:checked {
 	border: 1px solid #3af;
+	cursor: pointer;
 }
 li .text-box {
 	background: rgba(68,68,68,0.8);
