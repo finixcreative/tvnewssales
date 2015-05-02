@@ -182,10 +182,10 @@ input[type=text] {
 	border-radius: 20px;
 	display: inline-block;
 }
-::-webkit-input-placeholder,
-:-moz-placeholder, /* Firefox 18- */
-::-moz-placeholder, /* Firefox 19+ */
-:-ms-input-placeholder {
+.button::-webkit-input-placeholder,
+.button:-moz-placeholder, /* Firefox 18- */
+.button::-moz-placeholder, /* Firefox 19+ */
+.button:-ms-input-placeholder {
 	color: #444;
 }
 footer {
