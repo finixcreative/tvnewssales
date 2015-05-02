@@ -169,6 +169,13 @@ footer {
 	border-top: 1px solid #ccc;
 	position: absolute;
 }
+footer p a {
+	color: #fff;
+	font-weight: 700;
+}
+footer p a:hover {
+	color: #3af;
+}
 .wrapper {
 	width: 100%;
 	max-width: 960px;
