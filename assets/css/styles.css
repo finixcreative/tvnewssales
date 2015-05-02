@@ -197,6 +197,9 @@ footer p a {
 footer p a:hover {
 	color: #3af;
 }
+.copyright p {
+	font-size: 0.75em;
+}
 .copyright p a:hover {
 	color: #f52;
 }
