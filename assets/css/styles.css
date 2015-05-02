@@ -165,13 +165,9 @@ input[type=text] {
 footer {
 	background: #444;
 	color: #fff;
-	width: 100%;
 	padding: 20px 0;
 	border-top: 1px solid #ccc;
 	position: absolute;
-}
-footer input {
-	float: right;
 }
 .wrapper {
 	width: 100%;
@@ -190,6 +186,9 @@ footer input {
 }
 .subsection {
 	background: #fff;
+}
+.subsection-alt {
+	background: #ccc;
 }
 .center {
 	text-align: center;
