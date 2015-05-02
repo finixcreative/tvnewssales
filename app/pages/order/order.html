@@ -32,7 +32,7 @@
 	<div class="publications wrapper">
 		<ul>
 			<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
-				<label for="{{ product.title }}">
+				<label class="full" for="{{ product.title }}">
 					<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
 						<img class="checkbox-image full" ng-src="{{ product.image }}"/>
 					</input>
