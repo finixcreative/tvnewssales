@@ -90,9 +90,11 @@ ul li img {
 	height: 200px;
 }
 li.tile {
-	position: relative;
 	border: 1px solid #fff;
-	z-index: 2;
+	position: relative;
+}
+li.tile:hover {
+	border: 1px solid #3af;
 }
 li .text-box {
 	background: rgba(68,68,68,0.8);
@@ -104,10 +106,6 @@ li .text-box {
 	text-align: center;
 	display: block;
 	cursor: pointer;
-}
-li:hover .tile {
-	border: 1px solid #3af;
-	z-index: 3;
 }
 li:hover .text-box {
 	display: none;
