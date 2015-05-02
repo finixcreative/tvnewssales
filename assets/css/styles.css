@@ -32,6 +32,21 @@ body {
 a {
 	text-decoration: none;
 }
+a.button {
+	color: #fff;
+	width: 312px;
+	padding: 15px 20px;
+	border: 1px solid #fff;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+a.button:hover {
+	background: #fff;
+	color: #444;
+}
 h3,
 h4 {
 	margin: 10px 0;
