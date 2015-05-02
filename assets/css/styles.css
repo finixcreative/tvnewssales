@@ -69,6 +69,7 @@ p {
 header {
 	background: #fff;
 	width: 100%;
+	border-bottom: 1px solid #eee;
 	float: left;
 	position: fixed;
 	z-index: 999;
