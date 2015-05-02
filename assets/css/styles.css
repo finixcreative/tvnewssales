@@ -182,6 +182,12 @@ input[type=text] {
 	border-radius: 20px;
 	display: inline-block;
 }
+::-webkit-input-placeholder,
+:-moz-placeholder, /* Firefox 18- */
+::-moz-placeholder, /* Firefox 19+ */
+:-ms-input-placeholder {
+	color: #444;
+}
 footer {
 	background: #444;
 	color: #fff;
