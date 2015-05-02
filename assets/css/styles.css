@@ -92,6 +92,7 @@ ul li img {
 li.tile {
 	border: 1px solid #fff;
 	position: relative;
+	cursor: pointer;
 }
 li.tile:hover,
 li.tile:active,
