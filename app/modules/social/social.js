@@ -1,9 +1,9 @@
 var socials = [
 	{
 		name: "facebook",
-		link: "www.facebook.com/",
+		link: "https://www.facebook.com/TvNewsSalesCo",
 	},
-	{
+/*	{
 		name: "twitter",
 		link: "twitter.com/",
 	},
@@ -23,4 +23,5 @@ var socials = [
 		name: "pinterest",
 		link: "www.pinterest.com/",
 	},
+*/
 ];
