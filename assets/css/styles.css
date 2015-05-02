@@ -165,10 +165,9 @@ select:focus {
 	border: 1px solid #fff;
 }
 input[type=submit] {
-	background: #ffffff;
+	background: #fff;
 	width: 200px;
 	height: 30px;
-	margin: 0 20px;
 	border: 3px solid rgba(255,255,255,0);
 	border-radius: 30px;
 	display: block;
