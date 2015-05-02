@@ -17,9 +17,6 @@ angular.module('finixApp')
 			.when('/learn', {
 				templateUrl: 'app/pages/learn/learn.html',
 			})
-			.when('/contact', {
-				templateUrl: 'app/pages/contact/contact.html',
-			})
 			.otherwise({
 				redirectTo: '/',
 			});
