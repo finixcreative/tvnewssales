@@ -29,25 +29,23 @@
 	</div>
 </div>
 <form class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com">
-	<div class="publications wrapper">
-		<ul>
-			<li class="tile fifth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
-				<label class="full" for="{{ product.title }}">
-					<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
-						<img class="checkbox-image full" ng-src="{{ product.image }}"/>
-					</input>
-					<div class="text-box full">
-						<h4>{{ product.title }}</h4>
-						<p>
-							Min. Order: <b>{{ product.minorder }}</b><br>
-							Frequency: <b>{{ product.frequency }}</b>
-						</p>
-					</div>
-				</label>
-			</li>
-		</ul>
-		<div class="full content">
-			<input class="submit button middle center" type="submit" value="Place Order">
-		</div>
+	<ul>
+		<li class="tile eigth" ng-repeat="product in display.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
+			<label class="full" for="{{ product.title }}">
+				<input class="full" type="checkbox" name="{{ product.title }}" value="selected">
+					<img class="checkbox-image full" ng-src="{{ product.image }}"/>
+				</input>
+				<div class="text-box full">
+					<h4>{{ product.title }}</h4>
+					<p>
+						Min. Order: <b>{{ product.minorder }}</b><br>
+						Frequency: <b>{{ product.frequency }}</b>
+					</p>
+				</div>
+			</label>
+		</li>
+	</ul>
+	<div class="full content">
+		<input class="submit button middle center" type="submit" value="Place Order">
 	</div>
 </form>

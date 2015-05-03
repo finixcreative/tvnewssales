@@ -244,13 +244,8 @@ footer p a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
-.publications {
-	width: 100%;
-}
-.information {
-}
-.order {
-}
+.information {}
+.order {}
 .credit {
 	background: rgba(29,103,159,0.7);
 	color: #fff;
@@ -317,7 +312,9 @@ footer p a:hover {
 .fifth, .twofifth, .threefifth, .fourfifth,
 .sixth, .fivesixth,
 .seventh, .twoseventh, .threeseventh, .fourseventh, .fiveseventh, .sixseventh,
-.tenth {
+.eigth, .threeeigth, .fiveeigth, .seveneigth,
+.ninth, .twoninth, .fourninth, .fiveninth, .sevenninth, .eightninth,
+.tenth, .threetenth, .sevententh, .ninetenth {
 	margin: 0;
 	float: left;
 	display: block;
@@ -340,7 +337,20 @@ footer p a:hover {
 .fourseventh {width: calc(100% * 4 / 7);}
 .fiveseventh {width: calc(100% * 5 / 7);}
 .sixseventh {width: calc(100% * 6 / 7);}
+.eigth {width: calc(100% * 1 / 8);}
+.threeeigth {width: calc(100% * 3 / 8);}
+.fiveeigth {width: calc(100% * 5 / 8);}
+.seveneigth {width: calc(100% * 7 / 8);}
+.ninth {width: calc(100% * 1 / 9);}
+.twoninth {width: calc(100% * 2 / 9);}
+.fourninth {width: calc(100% * 4 / 9);}
+.fiveninth {width: calc(100% * 5 / 9);}
+.sevenninth {width: calc(100% * 7 / 9);}
+.eightninth {width: calc(100% * 8 / 9);}
 .tenth {width: calc(100% * 1 / 10);}
+.threetenth {width: calc(100% * 3 / 10);}
+.sevententh {width: calc(100% * 7 / 10);}
+.ninetenth {width: calc(100% * 9 / 10);}
 
 .tablet,
 .mobile {
@@ -375,7 +385,9 @@ footer p a:hover {
 	.fifth, .twofifth, .threefifth, .fourfifth,
 	.sixth, .fivesixth,
 	.seventh, .twoseventh, .threeseventh, .fourseventh, .fiveseventh, .sixseventh,
-	.tenth {
+	.eigth, .threeeigth, .fiveeigth, .seveneigth,
+	.ninth, .twoninth, .fourninth, .fiveninth, .sevenninth, .eightninth,
+	.tenth, .threetenth, .sevententh, .ninetenth {
 		width: 100%;
 	}
 	.desktop,
