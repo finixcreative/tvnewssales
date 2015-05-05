@@ -2,65 +2,65 @@
 	<form class="order full">
 		<section class="full">
 			<ul class="checkout nav full">
-				<li ng-class="{ active:panel.isSelected(1) }">
-					<a href ng-click="panel.selectTab(1)">General Info</a>
+				<li class="fifth" ng-class="{ active:panel.isSelected(1) }">
+					<a class="full center" href ng-click="panel.selectTab(1)">General Info</a>
 				</li>
-				<li ng-class="{ active:panel.isSelected(2) }">
-					<a href ng-click="panel.selectTab(2)">Mailing Info</a>
+				<li class="fifth" ng-class="{ active:panel.isSelected(2) }">
+					<a class="full center" href ng-click="panel.selectTab(2)">Mailing Info</a>
 				</li>
-				<li ng-class="{ active:panel.isSelected(3) }">
-					<a href ng-click="panel.selectTab(3)">Billing Info</a>
+				<li class="fifth" ng-class="{ active:panel.isSelected(3) }">
+					<a class="full center" href ng-click="panel.selectTab(3)">Billing Info</a>
 				</li>
-				<li ng-class="{ active:panel.isSelected(4) }">
-					<a href ng-click="panel.selectTab(4)">Special Offers</a>
+				<li class="fifth" ng-class="{ active:panel.isSelected(4) }">
+					<a class="full center" href ng-click="panel.selectTab(4)">Special Offers</a>
 				</li>
-				<li ng-class="{ active:panel.isSelected(5) }">
-					<a href ng-click="panel.selectTab(5)">Confirm Order</a>
+				<li class="fifth" ng-class="{ active:panel.isSelected(5) }">
+					<a class="full center" href ng-click="panel.selectTab(5)">Confirm Order</a>
 				</li>
 			</ul>
 			<div class="panel full" ng-show="panel.isSelected(1)">
 				<h3>Step 1: General Info</h3>
-				<input type="text" name="" value="" placeholder="Store Name" required>
-				<input type="text" name="" value="" placeholder="Email" required>
-				<input type="text" name="" value="" placeholder="Phone" required>
-				<input type="text" name="" value="" placeholder="Cell">
-				<input type="text" name="" value="" placeholder="Fax" required>
+				<input class="button" type="text" name="" value="" placeholder="Store Name" required>
+				<input class="button" type="text" name="" value="" placeholder="Email" required>
+				<input class="button" type="text" name="" value="" placeholder="Phone" required>
+				<input class="button" type="text" name="" value="" placeholder="Cell">
+				<input class="button" type="text" name="" value="" placeholder="Fax" required>
 			</div>
 			<div class="panel full" ng-show="panel.isSelected(2)">
 				<h3>Step 2: Mailing Info</h3>
-				<input type="text" name="" value="" placeholder="Address" required>
-				<input type="text" name="" value="" placeholder="Address 2">
-				<input type="text" name="" value="" placeholder="City" required>
-				<input type="text" name="" value="" placeholder="State" required>
-				<input type="text" name="" value="" placeholder="Zip" required>
+				<input class="button" type="text" name="" value="" placeholder="Address" required>
+				<input class="button" type="text" name="" value="" placeholder="Address 2">
+				<input class="button" type="text" name="" value="" placeholder="City" required>
+				<input class="button" type="text" name="" value="" placeholder="State" required>
+				<input class="button" type="text" name="" value="" placeholder="Zip" required>
 				<h3>UPS Shipping (if different from US Mail)</h3>
-				<input type="text" name="" value="" placeholder="Address">
-				<input type="text" name="" value="" placeholder="Address 2">
-				<input type="text" name="" value="" placeholder="City">
-				<input type="text" name="" value="" placeholder="State">
-				<input type="text" name="" value="" placeholder="Zip">
+				<input class="button" type="text" name="" value="" placeholder="Address">
+				<input class="button" type="text" name="" value="" placeholder="Address 2">
+				<input class="button" type="text" name="" value="" placeholder="City">
+				<input class="button" type="text" name="" value="" placeholder="State">
+				<input class="button" type="text" name="" value="" placeholder="Zip">
 			</div>
 			<div class="panel full" ng-show="panel.isSelected(3)">
 				<h3>Step 3: Billing Info (if different from US Mail)</h3>
-				<input type="text" name="" value="" placeholder="Address">
-				<input type="text" name="" value="" placeholder="Address 2">
-				<input type="text" name="" value="" placeholder="City">
-				<input type="text" name="" value="" placeholder="State">
-				<input type="text" name="" value="" placeholder="Zip">
+				<input class="button" type="text" name="" value="" placeholder="Address">
+				<input class="button" type="text" name="" value="" placeholder="Address 2">
+				<input class="button" type="text" name="" value="" placeholder="City">
+				<input class="button" type="text" name="" value="" placeholder="State">
+				<input class="button" type="text" name="" value="" placeholder="Zip">
 				<p>Credit Check</p>
-				<select name="ownership" required>
-					<option value="proprietorship" disabled="disabled">- Select One -</option>
-					<option value="proprietorship">Proprietorship</option>
-					<option value="partnership">Partnership</option>
-					<option value="corporation">Corporation</option>
+				<select class="button" name="ownership" required>
+					<option class="button" value="proprietorship" disabled="disabled">- Select One -</option>
+					<option class="button" value="proprietorship">Proprietorship</option>
+					<option class="button" value="partnership">Partnership</option>
+					<option class="button" value="corporation">Corporation</option>
 				</select>
-				<input type="text" name="" value="" placeholder="Federal IDN" required>
-				<input type="text" name="" value="" placeholder="Supplier 1">
-				<input type="text" name="" value="" placeholder="Supplier 2">
-				<input type="text" name="" value="" placeholder="Address 1">
-				<input type="text" name="" value="" placeholder="Address 2">
-				<input type="text" name="" value="" placeholder="Phone 1">
-				<input type="text" name="" value="" placeholder="Phone 2">
+				<input class="button" type="text" name="" value="" placeholder="Federal IDN" required>
+				<input class="button" type="text" name="" value="" placeholder="Supplier 1">
+				<input class="button" type="text" name="" value="" placeholder="Supplier 2">
+				<input class="button" type="text" name="" value="" placeholder="Address 1">
+				<input class="button" type="text" name="" value="" placeholder="Address 2">
+				<input class="button" type="text" name="" value="" placeholder="Phone 1">
+				<input class="button" type="text" name="" value="" placeholder="Phone 2">
 			</div>
 			<div class="panel full" ng-show="panel.isSelected(4)">
 				<h3>Step 5: Special Offers</h3>
@@ -72,11 +72,10 @@
 				<input type="checkbox" name="23-pocket Sophisticate Display" value="selected"/>
 				<label for="23-pocket Sophisticate Display">23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></label>
 			</div>
-
 			<div class="panel full" ng-show="panel.isSelected(5)">
 				<h3>Step 5: Confirm Order</h3>
 				<p>By clicking "sign up" below, you agree to our <a href="http://www.tvnewssalesco.com/our-program.html" target="blank">terms & conditions</a>.</p>
-				<input type="submit" value="Sign Up!">
+				<button class="button" type="submit">Sign Up!</button>
 			</div>
 		</section>
 	</form>
