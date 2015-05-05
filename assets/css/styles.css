@@ -21,10 +21,13 @@ Secondary Fill   | #
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
+body,
+button {
+	font-family: 'Open Sans', sans-serif;
+}
 body {
 	color: #444;
 	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	overflow-y: scroll;
 }
