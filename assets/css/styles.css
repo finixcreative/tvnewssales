@@ -158,23 +158,14 @@ select:hover {
 input[type=checkbox] {
 	display: none;
 }
-input[type=checkbox]:checked img.checkbox-image {}
-img.checkbox-image:hover {}
 input[type=submit] {}
 input[type=text] {
-	background: #fff;
-	width: 128px;
-	height: 20px;
-	margin-bottom: 10px;
-	padding: 0 10px;
-	border: none;
-	border-radius: 20px;
 	display: inline-block;
 }
-.button::-webkit-input-placeholder,
-.button:-moz-placeholder, /* Firefox 18- */
-.button::-moz-placeholder, /* Firefox 19+ */
-.button:-ms-input-placeholder {
+::-webkit-input-placeholder,
+:-moz-placeholder, /* Firefox 18- */
+::-moz-placeholder, /* Firefox 19+ */
+:-ms-input-placeholder {
 	color: #444;
 }
 footer {
