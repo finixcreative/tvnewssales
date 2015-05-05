@@ -21,10 +21,13 @@ Secondary Fill   | #
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
+body,
+button {
+	font-family: 'Open Sans', sans-serif;
+}
 body {
 	color: #444;
 	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	overflow-y: scroll;
 }
@@ -114,28 +117,7 @@ li .text-box {
 li:hover .text-box {
 	display: none;
 }
-form {
-	width: 100%;
-}
-form.order {
-	background: #fff;
-	width: 960px;
-	margin: 0 auto;
-	padding: 20px;
-	position: relative;
-	top: 90px;
-	bottom: 20px;
-}
-form.order li {
-	background: #ccc;
-	padding: 10px;
-	text-align: center;
-}
-form.order li.active,
-form.order li:hover {
-	background: #00cc00;
-	color: #fff;
-}
+form {}
 .button {
 	background: none;
 	color: #444;
@@ -156,6 +138,9 @@ form.order li:hover {
 	padding: 15px 20px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+.cta {
+	width: 250px;
 }
 input:focus,
 input:hover,
