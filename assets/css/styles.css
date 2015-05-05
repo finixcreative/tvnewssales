@@ -24,6 +24,7 @@ Secondary Fill   | #
 body,
 button {
 	font-family: 'Open Sans', sans-serif;
+
 }
 body {
 	color: #444;
@@ -143,6 +144,11 @@ button:focus {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+input,
+select {
+	margin-bottom: 10px;
+	padding: 10px;
+}
 input:focus,
 input:hover,
 select:focus,
@@ -154,11 +160,6 @@ input[type=checkbox] {
 }
 input[type=checkbox]:checked img.checkbox-image {}
 img.checkbox-image:hover {}
-input[type=search],
-select {
-	margin-bottom: 10px;
-	padding: 10px;
-}
 input[type=submit] {}
 input[type=text] {
 	background: #fff;
