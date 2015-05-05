@@ -11,6 +11,61 @@ Secondary Fill   | #
 --------------------------
 */
 
+/* RESPONSIVE */
+.full,
+.half,
+.third, .twothird,
+.quarter, .threequarter,
+.fifth, .twofifth, .threefifth, .fourfifth,
+.sixth, .fivesixth,
+.seventh, .twoseventh, .threeseventh, .fourseventh, .fiveseventh, .sixseventh,
+.eigth, .threeeigth, .fiveeigth, .seveneigth,
+.ninth, .twoninth, .fourninth, .fiveninth, .sevenninth, .eightninth,
+.tenth, .threetenth, .sevententh, .ninetenth {
+	margin: 0;
+	float: left;
+	display: block;
+}
+.full {width: calc(100% * 1 / 1);}
+.half {width: calc(100% * 1 / 2);}
+.third {width: calc(100% * 1 / 3);}
+.twothird {width: calc(100% * 2 / 3);}
+.quarter {width: calc(100% * 1 / 4);}
+.threequarter {width: calc(100% * 3 / 4);}
+.fifth {width: calc(100% * 1 / 5);}
+.twofifth {width: calc(100% * 2 / 5);}
+.threefifth {width: calc(100% * 3 / 5);}
+.fourfifth {width: calc(100% * 4 / 5);}
+.sixth {width: calc(100% * 1 / 6);}
+.fivesixth {width: calc(100% * 5 / 6);}
+.seventh {width: calc(100% * 1 / 7);}
+.twoseventh {width: calc(100% * 2 / 7);}
+.threeseventh {width: calc(100% * 3 / 7);}
+.fourseventh {width: calc(100% * 4 / 7);}
+.fiveseventh {width: calc(100% * 5 / 7);}
+.sixseventh {width: calc(100% * 6 / 7);}
+.eigth {width: calc(100% * 1 / 8);}
+.threeeigth {width: calc(100% * 3 / 8);}
+.fiveeigth {width: calc(100% * 5 / 8);}
+.seveneigth {width: calc(100% * 7 / 8);}
+.ninth {width: calc(100% * 1 / 9);}
+.twoninth {width: calc(100% * 2 / 9);}
+.fourninth {width: calc(100% * 4 / 9);}
+.fiveninth {width: calc(100% * 5 / 9);}
+.sevenninth {width: calc(100% * 7 / 9);}
+.eightninth {width: calc(100% * 8 / 9);}
+.tenth {width: calc(100% * 1 / 10);}
+.threetenth {width: calc(100% * 3 / 10);}
+.sevententh {width: calc(100% * 7 / 10);}
+.ninetenth {width: calc(100% * 9 / 10);}
+.tablet,
+.mobile {
+	display: none;
+}
+.desktop {
+	display: block;
+}
+
 /* GENERAL STYLES */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
 * {
@@ -24,7 +79,6 @@ Secondary Fill   | #
 body,
 button {
 	font-family: 'Open Sans', sans-serif;
-
 }
 body {
 	color: #444;
@@ -162,9 +216,15 @@ input[type=submit] {}
 input[type=text] {
 	display: inline-block;
 }
-::-webkit-input-placeholder,
-:-moz-placeholder, /* Firefox 18- */
-::-moz-placeholder, /* Firefox 19+ */
+::-webkit-input-placeholder {
+	color: #444;
+}
+:-moz-placeholder /* Firefox 18- */ {
+	color: #444;
+}
+::-moz-placeholder /* Firefox 19+ */ {
+	color: #444;
+}
 :-ms-input-placeholder {
 	color: #444;
 }
@@ -282,61 +342,7 @@ footer p a:hover {
 	display: none;
 }
 
-/* RESPONSIVE */
-.full,
-.half,
-.third, .twothird,
-.quarter, .threequarter,
-.fifth, .twofifth, .threefifth, .fourfifth,
-.sixth, .fivesixth,
-.seventh, .twoseventh, .threeseventh, .fourseventh, .fiveseventh, .sixseventh,
-.eigth, .threeeigth, .fiveeigth, .seveneigth,
-.ninth, .twoninth, .fourninth, .fiveninth, .sevenninth, .eightninth,
-.tenth, .threetenth, .sevententh, .ninetenth {
-	margin: 0;
-	float: left;
-	display: block;
-}
-.full {width: calc(100% * 1 / 1);}
-.half {width: calc(100% * 1 / 2);}
-.third {width: calc(100% * 1 / 3);}
-.twothird {width: calc(100% * 2 / 3);}
-.quarter {width: calc(100% * 1 / 4);}
-.threequarter {width: calc(100% * 3 / 4);}
-.fifth {width: calc(100% * 1 / 5);}
-.twofifth {width: calc(100% * 2 / 5);}
-.threefifth {width: calc(100% * 3 / 5);}
-.fourfifth {width: calc(100% * 4 / 5);}
-.sixth {width: calc(100% * 1 / 6);}
-.fivesixth {width: calc(100% * 5 / 6);}
-.seventh {width: calc(100% * 1 / 7);}
-.twoseventh {width: calc(100% * 2 / 7);}
-.threeseventh {width: calc(100% * 3 / 7);}
-.fourseventh {width: calc(100% * 4 / 7);}
-.fiveseventh {width: calc(100% * 5 / 7);}
-.sixseventh {width: calc(100% * 6 / 7);}
-.eigth {width: calc(100% * 1 / 8);}
-.threeeigth {width: calc(100% * 3 / 8);}
-.fiveeigth {width: calc(100% * 5 / 8);}
-.seveneigth {width: calc(100% * 7 / 8);}
-.ninth {width: calc(100% * 1 / 9);}
-.twoninth {width: calc(100% * 2 / 9);}
-.fourninth {width: calc(100% * 4 / 9);}
-.fiveninth {width: calc(100% * 5 / 9);}
-.sevenninth {width: calc(100% * 7 / 9);}
-.eightninth {width: calc(100% * 8 / 9);}
-.tenth {width: calc(100% * 1 / 10);}
-.threetenth {width: calc(100% * 3 / 10);}
-.sevententh {width: calc(100% * 7 / 10);}
-.ninetenth {width: calc(100% * 9 / 10);}
-
-.tablet,
-.mobile {
-	display: none;
-}
-.desktop {
-	display: block;
-}
+/* DEVICES */
 @media screen and (max-width: 960px) {
 	.desktop,
 	.mobile {
