@@ -3,10 +3,10 @@ angular.module('finixApp', [
 	'ngAnimate',
 	'contactMod',
 	'copyrightMod',
-	'displayMod',
 	'footerMod',
 	'headerMod',
 	'navMod',
 	'panelMod',
+	'productsMod',
 	'socialMod'
 ]);
