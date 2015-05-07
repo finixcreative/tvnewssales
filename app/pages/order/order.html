@@ -32,7 +32,7 @@
 	<ul>
 		<li class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
 			<label class="full" for="{{ product.title }}">
-				<input type="checkbox" name="{{ product.title }}" value="selected" ng-model="order.titles"/>
+				<input type="checkbox" name="{{ product.title }}" value="selected" ng-model="order.title"/>
 				<img class="checkbox-image full" ng-src="{{ product.image }}"/>
 				<div class="text-box full">
 					<h4>{{ product.title }}</h4>
@@ -45,10 +45,7 @@
 		</li>
 	</ul>
 	<div class="full content">
-		<p>
-			Order: {{ order }}<br>
-			Titles: {{ order.titles }}
-		</p>
+		<pre>Order: {{order | json}}</pre>
 		<button class="submit button middle center" ng-click="update(order)" onclick="location.href='#/credit'">Place Order</button>
 	</div>
 </form>
