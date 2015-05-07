@@ -148,10 +148,10 @@ ul li a {
 ul li img {
 	height: 200px;
 }
+form {}
 li.tile {
 	border: 1px solid #fff;
 	position: relative;
-	cursor: pointer;
 }
 li.tile:hover,
 li.tile:active,
@@ -173,7 +173,9 @@ li .text-box {
 li:hover .text-box {
 	display: none;
 }
-form {}
+label {
+	cursor: pointer;
+}
 button:active,
 button:focus {
 	outline: none;
