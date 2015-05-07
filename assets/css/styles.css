@@ -212,9 +212,11 @@ select:focus,
 select:hover {
 	outline: none;
 }
+/*
 input[type=checkbox] {
 	display: none;
 }
+*/
 input[type=submit] {}
 input[type=text] {
 	display: inline-block;
