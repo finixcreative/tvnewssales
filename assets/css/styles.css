@@ -203,7 +203,7 @@ button:focus {
 }
 input,
 select {
-	margin-bottom: 10px;
+	height: 40px;
 	padding: 10px;
 }
 input:focus,
