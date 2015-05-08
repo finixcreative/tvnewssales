@@ -1,82 +1,90 @@
 <div class="wrapper">
-	<form class="order content full">
-		<section class="full">
-			<ul class="checkout nav full">
-				<li class="fifth" ng-class="{ active:panel.isSelected(1) }">
-					<a class="full center" href ng-click="panel.selectTab(1)">Step 1</a>
-				</li>
-				<li class="fifth" ng-class="{ active:panel.isSelected(2) }">
-					<a class="full center" href ng-click="panel.selectTab(2)">Step 2</a>
-				</li>
-				<li class="fifth" ng-class="{ active:panel.isSelected(3) }">
-					<a class="full center" href ng-click="panel.selectTab(3)">Step 3</a>
-				</li>
-				<li class="fifth" ng-class="{ active:panel.isSelected(4) }">
-					<a class="full center" href ng-click="panel.selectTab(4)">Step 4</a>
-				</li>
-				<li class="fifth" ng-class="{ active:panel.isSelected(5) }">
-					<a class="full center" href ng-click="panel.selectTab(5)">Step 5</a>
-				</li>
-			</ul>
-			<div class="panel full" ng-show="panel.isSelected(1)">
-				<h3>Step 1: General Info</h3>
-				<input class="button" type="text" name="" value="" placeholder="Store Name" required>
-				<input class="button" type="text" name="" value="" placeholder="Email" required>
-				<input class="button" type="text" name="" value="" placeholder="Phone" required>
-				<input class="button" type="text" name="" value="" placeholder="Cell">
-				<input class="button" type="text" name="" value="" placeholder="Fax" required>
-			</div>
-			<div class="panel full" ng-show="panel.isSelected(2)">
-				<h3>Step 2: Mailing Info</h3>
-				<input class="button" type="text" name="" value="" placeholder="Address" required>
-				<input class="button" type="text" name="" value="" placeholder="Address 2">
-				<input class="button" type="text" name="" value="" placeholder="City" required>
-				<input class="button" type="text" name="" value="" placeholder="State" required>
-				<input class="button" type="text" name="" value="" placeholder="Zip" required>
-				<h3>UPS Shipping (if different from US Mail)</h3>
-				<input class="button" type="text" name="" value="" placeholder="Address">
-				<input class="button" type="text" name="" value="" placeholder="Address 2">
-				<input class="button" type="text" name="" value="" placeholder="City">
-				<input class="button" type="text" name="" value="" placeholder="State">
-				<input class="button" type="text" name="" value="" placeholder="Zip">
-			</div>
-			<div class="panel full" ng-show="panel.isSelected(3)">
-				<h3>Step 3: Billing Info (if different from US Mail)</h3>
-				<input class="button" type="text" name="" value="" placeholder="Address">
-				<input class="button" type="text" name="" value="" placeholder="Address 2">
-				<input class="button" type="text" name="" value="" placeholder="City">
-				<input class="button" type="text" name="" value="" placeholder="State">
-				<input class="button" type="text" name="" value="" placeholder="Zip">
-				<p>Credit Check</p>
-				<select class="button" name="ownership" required>
-					<option class="button" value="proprietorship" disabled="disabled">- Select One -</option>
-					<option class="button" value="proprietorship">Proprietorship</option>
-					<option class="button" value="partnership">Partnership</option>
-					<option class="button" value="corporation">Corporation</option>
-				</select>
-				<input class="button" type="text" name="" value="" placeholder="Federal IDN" required><br>
-				<input class="button" type="text" name="" value="" placeholder="Supplier 1">
-				<input class="button" type="text" name="" value="" placeholder="Address 1">
-				<input class="button" type="text" name="" value="" placeholder="Phone 1"><br>
-				<input class="button" type="text" name="" value="" placeholder="Supplier 2">
-				<input class="button" type="text" name="" value="" placeholder="Address 2">
-				<input class="button" type="text" name="" value="" placeholder="Phone 2">
-			</div>
-			<div class="panel full" ng-show="panel.isSelected(4)">
-				<h3>Step 4: Special Offers</h3>
-				<p>Free display racks available with qualifying orders!</p>
-				<input type="checkbox" name="20-pocket Display" value="selected"/>
-				<label for="20-pocket Display">20-pocket Display <span class="italics">(minimum 20 titles)</span></label><br>
-				<input type="checkbox" name="15-pocket Sophisticate Display" value="selected"/>
-				<label for="15-pocket Sophisticate Display">15-pocket Sophisticate Display <span class="italics">(minimum 15 Adult titles)</span></label><br>
-				<input type="checkbox" name="23-pocket Sophisticate Display" value="selected"/>
-				<label for="23-pocket Sophisticate Display">23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></label>
-			</div>
-			<div class="panel full" ng-show="panel.isSelected(5)">
-				<h3>Step 5: Confirm Order</h3>
-				<p>By clicking "sign up" below, you agree to our <a href="#/learn" target="blank">terms & conditions</a>.</p>
-				<button class="submit button" type="submit">Sign Up!</button>
-			</div>
-		</section>
-	</form>
+	<div class="content full">
+		<h1>Credit</h1>
+		<p>Complete all form sections</p>
+	</div>
+</div>
+<div class="subsection full">
+	<div class="wrapper">
+		<form class="order content full">
+			<section class="full">
+				<ul class="checkout nav full">
+					<li class="fifth" ng-class="{ active:panel.isSelected(1) }">
+						<a class="full center" href ng-click="panel.selectTab(1)">Step 1</a>
+					</li>
+					<li class="fifth" ng-class="{ active:panel.isSelected(2) }">
+						<a class="full center" href ng-click="panel.selectTab(2)">Step 2</a>
+					</li>
+					<li class="fifth" ng-class="{ active:panel.isSelected(3) }">
+						<a class="full center" href ng-click="panel.selectTab(3)">Step 3</a>
+					</li>
+					<li class="fifth" ng-class="{ active:panel.isSelected(4) }">
+						<a class="full center" href ng-click="panel.selectTab(4)">Step 4</a>
+					</li>
+					<li class="fifth" ng-class="{ active:panel.isSelected(5) }">
+						<a class="full center" href ng-click="panel.selectTab(5)">Step 5</a>
+					</li>
+				</ul>
+				<div class="panel full" ng-show="panel.isSelected(1)">
+					<h3>Step 1: General Info</h3>
+					<input class="button" type="text" name="" value="" placeholder="Store Name" required>
+					<input class="button" type="text" name="" value="" placeholder="Email" required>
+					<input class="button" type="text" name="" value="" placeholder="Phone" required>
+					<input class="button" type="text" name="" value="" placeholder="Cell">
+					<input class="button" type="text" name="" value="" placeholder="Fax" required>
+				</div>
+				<div class="panel full" ng-show="panel.isSelected(2)">
+					<h3>Step 2: Mailing Info</h3>
+					<input class="button" type="text" name="" value="" placeholder="Address" required>
+					<input class="button" type="text" name="" value="" placeholder="Address 2">
+					<input class="button" type="text" name="" value="" placeholder="City" required>
+					<input class="button" type="text" name="" value="" placeholder="State" required>
+					<input class="button" type="text" name="" value="" placeholder="Zip" required>
+					<h3>UPS Shipping (if different from US Mail)</h3>
+					<input class="button" type="text" name="" value="" placeholder="Address">
+					<input class="button" type="text" name="" value="" placeholder="Address 2">
+					<input class="button" type="text" name="" value="" placeholder="City">
+					<input class="button" type="text" name="" value="" placeholder="State">
+					<input class="button" type="text" name="" value="" placeholder="Zip">
+				</div>
+				<div class="panel full" ng-show="panel.isSelected(3)">
+					<h3>Step 3: Billing Info (if different from US Mail)</h3>
+					<input class="button" type="text" name="" value="" placeholder="Address">
+					<input class="button" type="text" name="" value="" placeholder="Address 2">
+					<input class="button" type="text" name="" value="" placeholder="City">
+					<input class="button" type="text" name="" value="" placeholder="State">
+					<input class="button" type="text" name="" value="" placeholder="Zip">
+					<p>Credit Check</p>
+					<select class="button" name="ownership" required>
+						<option class="button" value="proprietorship" disabled="disabled">- Select One -</option>
+						<option class="button" value="proprietorship">Proprietorship</option>
+						<option class="button" value="partnership">Partnership</option>
+						<option class="button" value="corporation">Corporation</option>
+					</select>
+					<input class="button" type="text" name="" value="" placeholder="Federal IDN" required><br>
+					<input class="button" type="text" name="" value="" placeholder="Supplier 1">
+					<input class="button" type="text" name="" value="" placeholder="Address 1">
+					<input class="button" type="text" name="" value="" placeholder="Phone 1"><br>
+					<input class="button" type="text" name="" value="" placeholder="Supplier 2">
+					<input class="button" type="text" name="" value="" placeholder="Address 2">
+					<input class="button" type="text" name="" value="" placeholder="Phone 2">
+				</div>
+				<div class="panel full" ng-show="panel.isSelected(4)">
+					<h3>Step 4: Special Offers</h3>
+					<p>Free display racks available with qualifying orders!</p>
+					<input type="checkbox" name="20-pocket Display" value="selected"/>
+					<label for="20-pocket Display">20-pocket Display <span class="italics">(minimum 20 titles)</span></label><br>
+					<input type="checkbox" name="15-pocket Sophisticate Display" value="selected"/>
+					<label for="15-pocket Sophisticate Display">15-pocket Sophisticate Display <span class="italics">(minimum 15 Adult titles)</span></label><br>
+					<input type="checkbox" name="23-pocket Sophisticate Display" value="selected"/>
+					<label for="23-pocket Sophisticate Display">23-pocket Sophisticate Display <span class="italics">(minimum 23 Adult titles)</span></label>
+				</div>
+				<div class="panel full" ng-show="panel.isSelected(5)">
+					<h3>Step 5: Confirm Order</h3>
+					<p>By clicking "sign up" below, you agree to our <a href="#/learn" target="blank">terms & conditions</a>.</p>
+					<button class="submit button" type="submit">Sign Up!</button>
+				</div>
+			</section>
+		</form>
+	</div>
 </div>
