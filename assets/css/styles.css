@@ -285,6 +285,9 @@ footer p a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+.right-float {
+	float: right;
+}
 .information {}
 .order {}
 .credit {
@@ -383,5 +386,8 @@ footer p a:hover {
 	}
 	.mobile {
 		display: block;
+	}
+	.right-float {
+		float: left;
 	}
 }
