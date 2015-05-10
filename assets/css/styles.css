@@ -296,7 +296,7 @@ footer p a:hover {
 /* DEVICES */
 @media screen and (max-width: 960px) {}
 @media screen and (max-width: 768px) {}
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px), only screen and (-webkit-device-pixel-ratio: 2) {
 	#content {
 		top: 140px;
 	}
@@ -304,7 +304,7 @@ footer p a:hover {
 		width: 100%;
 	}
 }
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 585px), only screen and (-webkit-device-pixel-ratio: 2) {
 	.right-float {
 		float: left;
 	}
