@@ -35,19 +35,18 @@
 	<form class="full" name="input" method="post" action="" novalidate>
 		<ul>
 			<li class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
-				<label class="full" for="{{ product.title }}">
-					<input type="checkbox" name="{{ product.title }}" value="selected" ng-model="order.title"/>
-					<!--
-					<img class="checkbox-image full" ng-src="{{ product.image }}"/>
-					<div class="text-box full">
-						<h4>{{ product.title }}</h4>
-						<p>
-							Min. Order: <b>{{ product.minorder }}</b><br>
-							Frequency: <b>{{ product.frequency }}</b>
-						</p>
-					</div>
-					-->
-				</label>
+				<input type="checkbox" name="{{ product.title }}" value="selected" ng-model="order.title"/>
+				<!--
+				<img class="checkbox-image full" ng-src="{{ product.image }}"/>
+				<div class="text-box full">
+					<h4>{{ product.title }}</h4>
+					<p>
+						Min. Order: <b>{{ product.minorder }}</b><br>
+						Frequency: <b>{{ product.frequency }}</b>
+					</p>
+				</div>
+				-->
+				<label class="full" for="{{ product.title }}"></label>
 			</li>
 		</ul>
 		<div class="full content">
