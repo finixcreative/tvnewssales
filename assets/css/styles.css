@@ -90,13 +90,13 @@ ul li {
 ul li a {
 	display: block;
 }
-ul li img {
-	height: 200px;
-}
 form {}
 .tile {
 	border: 1px solid #fff;
 	position: relative;
+}
+.tile img {
+	height: 200px;
 }
 .tile:hover,
 .tile:active,
@@ -115,7 +115,8 @@ form {}
 	display: block;
 	cursor: pointer;
 }
-.tile:hover .text-box {
+.tile:hover .text-box,
+.tile input[type=checkbox]:checked + .text-box {
 	display: none;
 }
 .check-box {
@@ -128,7 +129,7 @@ form {}
 	text-align: center;
 	display: none;
 }
-.tile input[type=checkbox]:checked .check-box {
+.tile input[type=checkbox]:checked + .check-box {
 	display: block;
 }
 .button {
