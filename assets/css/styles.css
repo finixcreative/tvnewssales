@@ -118,6 +118,19 @@ form {}
 .tile:hover .text-box {
 	display: none;
 }
+.check-box {
+	background: rgba(51,170,255,0.8);
+	color: #fff;
+	height: 100%;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	display: none;
+}
+.tile:hover .check-box {
+	display: block;
+}
 .button {
 	background: none;
 	color: #444;
