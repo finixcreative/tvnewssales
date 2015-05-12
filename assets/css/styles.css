@@ -94,17 +94,17 @@ ul li img {
 	height: 200px;
 }
 form {}
-li.tile {
+.tile {
 	border: 1px solid #fff;
 	position: relative;
 }
-li.tile:hover,
-li.tile:active,
-li.tile:focus,
-li.tile:checked {
+.tile:hover,
+.tile:active,
+.tile:focus,
+.tile:checked {
 	border: 1px solid #3af;
 }
-li .text-box {
+.text-box {
 	background: rgba(68,68,68,0.8);
 	color: #fff;
 	height: 100%;
@@ -115,15 +115,8 @@ li .text-box {
 	display: block;
 	cursor: pointer;
 }
-li:hover .text-box {
+.tile:hover .text-box {
 	display: none;
-}
-label {
-	cursor: pointer;
-}
-button:active,
-button:focus {
-	outline: none;
 }
 .button {
 	background: none;
@@ -146,33 +139,30 @@ button:focus {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+label {
+	cursor: pointer;
+}
 input,
 select {
 	height: 40px;
 	padding: 10px;
 }
-input:focus,
-input:hover,
-select:focus,
-select:hover {
+button:active, button:focus, button:hover,
+input:active, input:focus, input:hover,
+select:active, select:focus, select:hover {
 	outline: none;
 }
 input[type=checkbox] {
 	display: none;
 }
 input[type=checkbox] + label {
-	background: #999;
+	background: #444;
 	height: 16px;
 	width: 16px;
-	display:inline-block;
-	padding: 0 0 0 0px;
+	display: inline-block;
 }
 input[type=checkbox]:checked + label {
-	background: #0080FF;
-	height: 16px;
-	width: 16px;
-	display:inline-block;
-	padding: 0 0 0 0px;
+	background: #3af;
 }
 input[type=submit] {}
 input[type=text] {
