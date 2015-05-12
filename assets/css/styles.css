@@ -91,6 +91,13 @@ ul li {
 ul li a {
 	display: block;
 }
+.step li.active {
+	border-radius: 50%;
+}
+.step li.active {
+	background: #3af;
+	color: #fff;
+}
 form {}
 .tile {
 	border: 1px solid #fff;
@@ -279,6 +286,7 @@ footer p a:hover {
 #submit a {
 	color: #fff;
 }
+.panel 
 .category {
 	width: 260px;
 	padding: 15px 30px;
