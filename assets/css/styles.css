@@ -128,7 +128,7 @@ form {}
 	text-align: center;
 	display: none;
 }
-.tile:hover .check-box {
+.tile input[type=checkbox]:checked .check-box {
 	display: block;
 }
 .button {
