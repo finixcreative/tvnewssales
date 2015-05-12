@@ -127,6 +127,13 @@ input[type=checkbox]:checked + label > .text-box {
 	text-align: center;
 	display: none;
 }
+.check-box img {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
 input[type=checkbox]:checked + label > .check-box {
 	display: block;
 }
