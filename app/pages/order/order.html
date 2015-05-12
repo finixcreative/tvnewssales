@@ -33,9 +33,9 @@
 		</div>
 	</div>
 	<form class="full" name="input" method="post" action="" novalidate>
-		<ul>
-			<li class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
-				<input type="checkbox" name="{{ product.title }}" value="selected" ng-model="order.title"/>
+		<div class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
+			<input type="checkbox" name="{{ product.title }}" value="selected" ng-model="order.title"/>
+			<label class="full" for="{{ product.title }}">
 				<!--
 				<img class="checkbox-image full" ng-src="{{ product.image }}"/>
 				<div class="text-box full">
@@ -46,9 +46,8 @@
 					</p>
 				</div>
 				-->
-				<label class="full" for="{{ product.title }}"></label>
-			</li>
-		</ul>
+			</label>
+		</div>
 		<div class="full content">
 			<pre>Order: {{order | json}}</pre>
 			<button class="submit button middle center" ng-click="update(order)" onclick="location.href='#/credit'">Place Order</button>
