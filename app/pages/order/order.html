@@ -34,7 +34,7 @@
 	</div>
 	<form class="full" name="input" method="post" action="" novalidate>
 		<div class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
-			<input type="checkbox" name="{{ product.title }}" value="selected" ng-model="order.title"/>
+			<input type="checkbox" id="{{ product.title }}" name="{{ product.title }}" value="selected" ng-model="order.title"/>
 			<label class="full" for="{{ product.title }}">
 				<!--
 				<img class="checkbox-image full" ng-src="{{ product.image }}"/>
