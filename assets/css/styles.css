@@ -101,9 +101,7 @@ form {}
 .tile:hover,
 .tile:active,
 .tile:focus,
-.tile:checked {
-	border: 1px solid #3af;
-}
+.tile:checked {}
 .text-box {
 	background: rgba(68,68,68,0.8);
 	color: #fff;
@@ -172,7 +170,7 @@ input[type=checkbox] {
 input[type=checkbox] + label {
 	background: #444;
 	display: inline-block;
-	padding: 3px;
+	padding: 5px;
 }
 input[type=checkbox]:checked + label {
 	background: #3af;
