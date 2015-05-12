@@ -114,7 +114,7 @@ form {}
 	cursor: pointer;
 }
 .tile:hover .text-box,
-input[type=checkbox]:checked + .text-box {
+input[type=checkbox]:checked + label > .text-box {
 	display: none;
 }
 .check-box {
@@ -127,7 +127,7 @@ input[type=checkbox]:checked + .text-box {
 	text-align: center;
 	display: none;
 }
-input[type=checkbox]:checked + .check-box {
+input[type=checkbox]:checked + label > .check-box {
 	display: block;
 }
 .button {
