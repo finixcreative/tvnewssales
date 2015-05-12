@@ -157,9 +157,8 @@ input[type=checkbox] {
 }
 input[type=checkbox] + label {
 	background: #444;
-	height: 16px;
-	width: 16px;
 	display: inline-block;
+	padding: 3px;
 }
 input[type=checkbox]:checked + label {
 	background: #3af;
