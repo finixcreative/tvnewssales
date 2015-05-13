@@ -91,13 +91,13 @@ ul li {
 ul li a {
 	display: block;
 }
-li.step {
+li.step a {
 	width: 30px;
 	margin: 0 auto;
 	border: 1px solid #ccc;
 	border-radius: 50%;
 }
-li.step.active {
+li.step.active a {
 	background: #3af;
 	color: #fff;
 	border: 1px solid #3af;
