@@ -91,12 +91,16 @@ ul li {
 ul li a {
 	display: block;
 }
-.step li.active {
+li.step {
+	width: 30px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
 	border-radius: 50%;
 }
-.step li.active {
+li.step.active {
 	background: #3af;
 	color: #fff;
+	border: 1px solid #3af;
 }
 form {}
 .tile {
