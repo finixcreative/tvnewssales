@@ -5,6 +5,9 @@ angular.module('finixApp')
 				templateUrl: 'app/pages/home/home.html',
 			})
 			.when('/order', {
+				redirectTo: '/order/step1',
+			})
+			.when('/order/step1', {
 				templateUrl: 'app/pages/order/order.html',
 				controller: 'ProductsController',
 				controllerAs: 'products',
