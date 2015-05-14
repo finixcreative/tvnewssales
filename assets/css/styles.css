@@ -299,6 +299,7 @@ footer p a:hover {
 .middle {
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
 }
 .right-float {
 	float: right;
