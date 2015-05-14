@@ -32,7 +32,7 @@
 			</select>
 		</div>
 	</div>
-	<form id="order" class="full" name="input" action="mailto:rsmith@finixcreative.com" method="POST" novalidate>
+	<form id="order" class="full" name="input" action="mailto:rsmith@finixcreative.com" novalidate>
 		<div class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
 			<input type="checkbox" id="{{ product.title }}" name="{{ product.title }}" value="selected" ng-model="order.title"/>
 			<label class="product full" for="{{ product.title }}">
