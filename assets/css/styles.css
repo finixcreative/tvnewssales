@@ -301,6 +301,10 @@ footer p a:hover {
 	margin-right: auto;
 	display: block;
 }
+.checkmark {
+	max-height: 200px;
+	max-width: 200px;
+}
 .right-float {
 	float: right;
 }
