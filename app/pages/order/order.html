@@ -32,7 +32,7 @@
 			</select>
 		</div>
 	</div>
-	<form id="order" class="full" name="input" action="mailto:rsmith@finixcreative.com" novalidate>
+	<form id="order" class="full" name="input" method="post" action="mailto:rsmith@finixcreative.com" novalidate>
 		<div class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
 			<input type="checkbox" id="{{ product.title }}" name="{{ product.title }}" value="selected" ng-model="order.title"/>
 			<label class="product full" for="{{ product.title }}">
@@ -51,6 +51,7 @@
 		</div>
 		<div class="full content">
 			<p>Order: {{order}}</p>
+			<input class="submit button" type="submit" value="Place Order!">
 			<button class="submit button middle center" type="submit" form="order" value="Submit">Place Order</button>
 			<!-- ng-click="update(order)" onclick="location.href='#/credit'"-->
 		</div>
