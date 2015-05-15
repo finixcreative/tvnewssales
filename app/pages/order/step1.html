@@ -1,8 +1,8 @@
 <div class="wrapper">
-	<div class="half">
+	<div class="content half">
 		<input class="button full" type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
 	</div>
-	<div class="half">
+	<div class="content half">
 		<select class="button full" name="filter" ng-model="filterTitles">
 			<option value="" selected>All Magazines</option>
 			<option value="13 - Adult Sophisticates">Adult Sophisticates</option>
@@ -41,9 +41,11 @@
 		</div>
 	</label>
 </div>
-<div class="full content">
-	<p>Order: {{order}}</p>
-	<input class="submit button" type="submit" value="Place Order!">
-	<button class="submit button middle center" type="submit" form="order" value="Submit">Place Order</button>
-	<!-- ng-click="update(order)" onclick="location.href='#/credit'"-->
+<div class="wrapper">
+	<div class="content full">
+		<p>Order: {{order}}</p>
+		<input class="submit button" type="submit" value="Place Order!">
+		<button class="submit button middle center" type="submit" form="order" value="Submit">Place Order</button>
+		<!-- ng-click="update(order)" onclick="location.href='#/credit'"-->
+	</div>
 </div>
