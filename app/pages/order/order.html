@@ -30,7 +30,7 @@
 			</ul>
 		</div>
 	</div>
-	<form id="order" class="full" action="mailto:rsmith@finixcreative.com" method="post" enctype="text/plain" ng-controller="ProductsController as products" novalidate>
+	<form id="order" class="full" action="mailto:rsmith@finixcreative.com" method="post" enctype="text/plain" ng-controller="ProductsController as products">
 		<div class="panel full" ng-show="panel.isSelected(1)" data-ng-include data-src="'app/pages/order/step1.html'"></div>
 		<div class="panel full" ng-show="panel.isSelected(2)" data-ng-include data-src="'app/pages/order/step2.html'"></div>
 		<div class="panel full" ng-show="panel.isSelected(3)" data-ng-include data-src="'app/pages/order/step3.html'"></div>
