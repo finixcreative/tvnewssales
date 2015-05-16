@@ -120,6 +120,9 @@ nav ul li .dropdown li img {
 	height: auto;
 	margin: 0 auto;
 }
+li.step {
+	float: left;
+}
 li.step a {
 	color: #444;
 	width: 30px;
