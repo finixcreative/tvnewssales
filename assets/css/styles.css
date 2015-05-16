@@ -123,6 +123,10 @@ nav ul li .dropdown li img {
 li.step {
 	float: left;
 }
+li.step p {
+	margin: 0;
+	line-height: 30px;
+}
 li.step a {
 	color: #444;
 	width: 30px;
