@@ -299,6 +299,12 @@ a.sublink {
 a.sublink:hover {
 	background: rgba(68,68,68,0.1);
 }
+#bbb {}
+#bbb img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
 .center {
 	text-align: center;
 }
