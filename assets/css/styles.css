@@ -293,6 +293,12 @@ footer p a:hover {
 .subsection-alt {
 	background: #ccc;
 }
+a.sublink {
+	color: #444
+}
+a.sublink:hover {
+	background: rgba(51,170,255,0.2);
+}
 .center {
 	text-align: center;
 }
