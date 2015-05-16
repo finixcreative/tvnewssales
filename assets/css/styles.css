@@ -297,7 +297,7 @@ a.sublink {
 	color: #444
 }
 a.sublink:hover {
-	background: rgba(51,170,255,0.2);
+	background: rgba(68,68,68,0.1);
 }
 .center {
 	text-align: center;
