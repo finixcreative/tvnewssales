@@ -144,6 +144,9 @@ li.step.active a {
 	border: 1px solid #3af;
 }
 form {}
+.form-body {
+	border: 1px solid #ccc;
+}
 .tile {
 	border: 1px solid #fff;
 	position: relative;
