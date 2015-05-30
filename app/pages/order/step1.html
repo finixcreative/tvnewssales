@@ -50,6 +50,7 @@
 	<div class="content full">
 		<div class="quarter" ng-repeat="product in products.products | orderBy: ['genre', 'title']" ng-show="product.selected">
 			<p>{{ product.title }}</p>
+			<input type="checkbox" ng-model="product.selected"/>Remove
 		</div>
 	</div>
 </div>
