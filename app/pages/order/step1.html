@@ -48,7 +48,7 @@
 </div>
 <div class="wrapper">
 	<div class="content full">
-		<div class="quarter" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter:{'order':'selected'}">
+		<div class="quarter" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: {order:selected}">
 			<p>{{ product.title }}</p>		
 		</div>
 		<button class="submit button middle center" ng-click="panel.selectTab(2)">Next ></button>
