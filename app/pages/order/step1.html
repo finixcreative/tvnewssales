@@ -30,7 +30,7 @@
 </div>
 <div class="full">
 	<div class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
-		<input type="checkbox" id="{{ product.title }}" name="{{ product.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="unselected"/>
+		<input type="checkbox" id="{{ product.title }}" name="{{ product.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="null"/>
 		<label class="product full" for="{{ product.title }}">
 			<img class="checkbox-image middle" ng-src="{{ product.image }}"/>
 			<div class="text-box full">
