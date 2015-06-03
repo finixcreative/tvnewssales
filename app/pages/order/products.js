@@ -7,7 +7,6 @@ var products = [
 		genre: '01 - Tabloid',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'National Examiner',
@@ -15,7 +14,6 @@ var products = [
 		genre: '01 - Tabloid',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'Globe',
@@ -23,7 +21,6 @@ var products = [
 		genre: '01 - Tabloid',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'Star',
@@ -31,7 +28,6 @@ var products = [
 		genre: '01 - Tabloid',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'Country Weekly',
@@ -39,7 +35,6 @@ var products = [
 		genre: '01 - Tabloid',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 
 // News & Entertainment
@@ -49,7 +44,6 @@ var products = [
 		genre: '02 - News & Entertainment',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'Life & Style',
@@ -57,7 +51,6 @@ var products = [
 		genre: '02 - News & Entertainment',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'OK Magazine',
@@ -65,7 +58,6 @@ var products = [
 		genre: '02 - News & Entertainment',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'People Weekly',
@@ -73,7 +65,6 @@ var products = [
 		genre: '02 - News & Entertainment',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'Soap Opera Digest',
@@ -81,7 +72,6 @@ var products = [
 		genre: '02 - News & Entertainment',
 		minorder: '2',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'Time',
@@ -89,7 +79,6 @@ var products = [
 		genre: '02 - News & Entertainment',
 		minorder: '2',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'US Weekly',
@@ -97,7 +86,6 @@ var products = [
 		genre: '02 - News & Entertainment',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 
 // Sports & Health
@@ -107,7 +95,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Field & Stream',
@@ -115,7 +102,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Fitness Rx for Men',
@@ -123,7 +109,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Fitness Rx for Women',
@@ -131,7 +116,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Flex',
@@ -139,7 +123,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Fly Rod & Reel',
@@ -147,7 +130,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Golf Digest',
@@ -155,7 +137,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Hunting',
@@ -163,7 +144,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'In-Fisherman',
@@ -171,7 +151,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '3',
 		frequency: 'BM',
-		selected: 'null',
 	},
 	{
 		title: 'Mens Fitness',
@@ -179,7 +158,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Mens Health',
@@ -187,7 +165,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Muscle & Fitness',
@@ -195,7 +172,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Natural Health',
@@ -203,7 +179,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Organic Life',
@@ -211,7 +186,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '5',
 		frequency: 'BM',
-		selected: 'null',
 	},
 	{
 		title: 'Outdoor Life',
@@ -219,7 +193,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Prevention',
@@ -227,7 +200,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Runners World',
@@ -235,7 +207,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Shape',
@@ -243,7 +214,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Sport Fishing',
@@ -251,7 +221,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Sports Illustrated',
@@ -259,7 +228,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'W',
-		selected: 'null',
 	},
 	{
 		title: 'Weight Watchers',
@@ -267,7 +235,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Womens Running',
@@ -275,7 +242,6 @@ var products = [
 		genre: '03 - Sports & Health',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'WWE Smackdown',
@@ -283,7 +249,6 @@ var products = [
 //		genre: '03 - Sports & Health',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 
 // Men & Fashion
@@ -293,7 +258,6 @@ var products = [
 		genre: '04 - Men & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'GQ',
@@ -301,7 +265,6 @@ var products = [
 		genre: '04 - Men & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'Maxim',
@@ -309,7 +272,6 @@ var products = [
 //		genre: '04 - Men & Fashion',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 
 // Auto & Racing
@@ -319,7 +281,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Auto Round-Up',
@@ -327,7 +288,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '3',
 		frequency: 'BW',
-		selected: 'null',
 	},
 	{
 		title: 'Auto / Truck Roundup',
@@ -335,7 +295,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Car & Driver',
@@ -343,7 +302,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Car Craft',
@@ -351,7 +309,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Cycle World',
@@ -359,7 +316,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Easy Rider',
@@ -367,7 +323,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Four Wheeler',
@@ -375,7 +330,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Hot Rod',
@@ -383,7 +337,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Motor Trend',
@@ -391,7 +344,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Off Road',
@@ -399,7 +351,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'Popular Hotrodding',
@@ -407,7 +358,6 @@ var products = [
 //		genre: '05 - Auto & Racing',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 	{
 		title: 'Road & Track',
@@ -415,7 +365,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Motorcycle Baggers',
@@ -423,7 +372,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Truck Roundup',
@@ -431,7 +379,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Truckin',
@@ -439,7 +386,6 @@ var products = [
 		genre: '05 - Auto & Racing',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Women & Fashion
@@ -449,7 +395,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Cosmopolitan',
@@ -457,7 +402,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Elle',
@@ -465,7 +409,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Family Circle',
@@ -473,7 +416,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'First For Women',
@@ -481,7 +423,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'BW',
-		selected: 'null',
 	},
 	{
 		title: 'Glamour',
@@ -489,7 +430,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Good Housekeeping',
@@ -497,7 +437,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Harpers Bazaar',
@@ -505,7 +444,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'In Style',
@@ -513,7 +451,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'Ladies Home Journal',
@@ -521,7 +458,6 @@ var products = [
 //		genre: '06 - Women & Fashion',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 	{
 		title: 'Marie Claire',
@@ -529,7 +465,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Oprah',
@@ -537,7 +472,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Redbook',
@@ -545,7 +479,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Self',
@@ -553,7 +486,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Vanity Fair',
@@ -561,7 +493,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Vogue',
@@ -569,7 +500,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Womans Day',
@@ -577,7 +507,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Womans World',
@@ -585,7 +514,6 @@ var products = [
 		genre: '06 - Women & Fashion',
 		minorder: '3',
 		frequency: 'W',
-		selected: 'null',
 	},
 
 // Business
@@ -595,7 +523,6 @@ var products = [
 		genre: '07 - Business',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Forbes',
@@ -603,7 +530,6 @@ var products = [
 		genre: '07 - Business',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Home Business',
@@ -611,7 +537,6 @@ var products = [
 		genre: '07 - Business',
 		minorder: '3',
 		frequency: 'BM',
-		selected: 'null',
 	},
 
 // Children
@@ -621,7 +546,6 @@ var products = [
 		genre: '08 - Children',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Pre-K to Grade 1 Learning Fun',
@@ -629,7 +553,6 @@ var products = [
 		genre: '08 - Children',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Computer
@@ -639,7 +562,6 @@ var products = [
 		genre: '09 - Computer',
 		minorder: '*',
 		frequency: '*',
-		selected: 'null',
 	},
 	{
 		title: 'X-Box',
@@ -647,7 +569,6 @@ var products = [
 		genre: '09 - Computer',
 		minorder: '*',
 		frequency: '*',
-		selected: 'null',
 	},
 
 // Music
@@ -657,7 +578,6 @@ var products = [
 		genre: '10 - Music',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Teen
@@ -667,7 +587,6 @@ var products = [
 		genre: '11 - Teen',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'M-Music, Movies More',
@@ -675,7 +594,6 @@ var products = [
 		genre: '11 - Teen',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Seventeen',
@@ -683,7 +601,6 @@ var products = [
 		genre: '11 - Teen',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Teen Vogue',
@@ -691,7 +608,6 @@ var products = [
 		genre: '11 - Teen',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Twist',
@@ -699,7 +615,6 @@ var products = [
 		genre: '11 - Teen',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Puzzles & Crosswords
@@ -709,7 +624,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Chicken Soup for the Soul',
@@ -717,7 +631,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Circle a Word',
@@ -725,7 +638,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Circle Circle',
@@ -733,7 +645,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'Dell Horoscope',
@@ -741,7 +652,6 @@ var products = [
 //		genre: '12 - Puzzles & Crosswords',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 	{
 		title: 'Easy Crosswords',
@@ -749,7 +659,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Easy Sudoku',
@@ -757,7 +666,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Family Variety Puzzle',
@@ -765,7 +673,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Games / World of Puzzles',
@@ -773,7 +680,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '*',
 		frequency: '*',
-		selected: 'null',
 	},
 	{
 		title: 'Jumble',
@@ -781,7 +687,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Logic Lovers Puzzles',
@@ -789,7 +694,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'National Observer',
@@ -797,7 +701,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Superb Word Find',
@@ -805,7 +708,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'USA Crosswords',
@@ -813,7 +715,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Variety Word Find',
@@ -821,7 +722,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Wheel of Fortune Seek',
@@ -829,7 +729,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Games / World of Puzzles',
@@ -837,7 +736,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'World of Sudoku',
@@ -845,7 +743,6 @@ var products = [
 		genre: '12 - Puzzles & Crosswords',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Adult Sophisticates
@@ -855,7 +752,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Cheri',
@@ -863,7 +759,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Club',
@@ -871,7 +766,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'Club Confidential',
@@ -879,7 +773,6 @@ var products = [
 //		genre: '13 - Adult Sophisticates',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 	{
 		title: 'Club International',
@@ -887,7 +780,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Club Spec.',
@@ -895,7 +787,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Erotic Film Guide',
@@ -903,7 +794,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Fox',
@@ -911,7 +801,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Gallery',
@@ -919,7 +808,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Girls of Penthouse',
@@ -927,7 +815,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'High Society',
@@ -935,7 +822,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Hustler / Best of Hustler',
@@ -943,7 +829,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '8',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Hustler Barely Legal',
@@ -951,7 +836,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '8',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Hustler Comix',
@@ -959,7 +843,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '8',
 		frequency: '2x/A',
-		selected: 'null',
 	},
 	{
 		title: 'Hustler Fantasies',
@@ -967,7 +850,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '8',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Hustlers Lingerie',
@@ -975,7 +857,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '8',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Hustler Taboo',
@@ -983,7 +864,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '8',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Lollypops',
@@ -991,7 +871,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Nasty Housewives',
@@ -999,7 +878,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Penthouse',
@@ -1007,7 +885,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Penthouse Forum',
@@ -1015,7 +892,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Penthouse Letters',
@@ -1023,7 +899,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Playboy',
@@ -1031,7 +906,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Playboy Calendars',
@@ -1039,7 +913,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '5',
 		frequency: 'A',
-		selected: 'null',
 	},
 	{
 		title: 'Playboy Specials',
@@ -1047,7 +920,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'BM',
-		selected: 'null',
 	},
 	{
 		title: 'Swank',
@@ -1055,7 +927,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Variations',
@@ -1063,7 +934,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: '30+ 40+ 50+',
@@ -1071,7 +941,6 @@ var products = [
 		genre: '13 - Adult Sophisticates',
 		minorder: '3 (each)',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Ethnic
@@ -1081,7 +950,6 @@ var products = [
 //		genre: '14 - Ethnic',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 	{
 		title: 'Essence',
@@ -1089,7 +957,6 @@ var products = [
 		genre: '14 - Ethnic',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'Jet',
@@ -1097,7 +964,6 @@ var products = [
 //		genre: '14 - Ethnic',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 	{
 		title: 'People En Espanol',
@@ -1105,7 +971,6 @@ var products = [
 		genre: '14 - Ethnic',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 //	{
 //		title: 'Smooth',
@@ -1113,7 +978,6 @@ var products = [
 //		genre: '14 - Ethnic',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 
 // Cooking
@@ -1123,7 +987,6 @@ var products = [
 		genre: '15 - Cooking',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Cooking Light',
@@ -1131,7 +994,6 @@ var products = [
 		genre: '15 - Cooking',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Everyday Rachael Ray',
@@ -1139,7 +1001,6 @@ var products = [
 		genre: '15 - Cooking',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Food Network Magazine',
@@ -1147,7 +1008,6 @@ var products = [
 		genre: '15 - Cooking',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Home & Garden
@@ -1157,7 +1017,6 @@ var products = [
 		genre: '16 - Home & Garden',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Country Living',
@@ -1165,7 +1024,6 @@ var products = [
 		genre: '16 - Home & Garden',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'HGTV Magazine',
@@ -1173,7 +1031,6 @@ var products = [
 		genre: '16 - Home & Garden',
 		minorder: '3',
 		frequency: 'BM',
-		selected: 'null',
 	},
 	{
 		title: 'House Beautiful',
@@ -1181,7 +1038,6 @@ var products = [
 		genre: '16 - Home & Garden',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Martha Stewart Living',
@@ -1189,7 +1045,6 @@ var products = [
 		genre: '16 - Home & Garden',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Real Simple',
@@ -1197,7 +1052,6 @@ var products = [
 		genre: '16 - Home & Garden',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Southern Living',
@@ -1205,7 +1059,6 @@ var products = [
 		genre: '16 - Home & Garden',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 
 // Miscellaneous
@@ -1215,7 +1068,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '5',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Family Handyman',
@@ -1223,7 +1075,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Guns & Ammo',
@@ -1231,7 +1082,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Guns & Weapons',
@@ -1239,7 +1089,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '5',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'High Times',
@@ -1247,7 +1096,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Mad Magazine',
@@ -1255,7 +1103,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'BM',
-		selected: 'null',
 	},
 	{
 		title: 'Old Farmers Almanac',
@@ -1263,7 +1110,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '20',
 		frequency: 'A',
-		selected: 'null',
 	},
 //	{
 //		title: 'Parents',
@@ -1271,7 +1117,6 @@ var products = [
 //		genre: '17 - Miscellaneous',
 //		minorder: '*',
 //		frequency: '*',
-//		selected: 'null',
 //	},
 	{
 		title: 'Popular Mechanics',
@@ -1279,7 +1124,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Popular Science',
@@ -1287,7 +1131,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Psychology Today',
@@ -1295,7 +1138,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Readers Digest',
@@ -1303,7 +1145,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Skin & Ink',
@@ -1311,7 +1152,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Tattoo',
@@ -1319,7 +1159,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '3',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Tattoo Flash',
@@ -1327,7 +1166,6 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '2',
 		frequency: 'M',
-		selected: 'null',
 	},
 	{
 		title: 'Yankee',
@@ -1335,6 +1173,5 @@ var products = [
 		genre: '17 - Miscellaneous',
 		minorder: '10',
 		frequency: 'BM',
-		selected: 'null',
 	}
 ];
