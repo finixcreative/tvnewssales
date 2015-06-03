@@ -301,6 +301,9 @@ footer p a:hover {
 .subsection-alt {
 	background: #ccc;
 }
+.sublink img {
+	max-width: 200px;
+}
 a.sublink {
 	color: #444
 }
