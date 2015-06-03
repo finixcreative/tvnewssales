@@ -161,38 +161,36 @@ form {}
 .tile:active,
 .tile:focus,
 .tile:checked {}
-.text-box {
-	background: rgba(68,68,68,0.8);
+.text-box,
+.check-box {
 	color: #fff;
 	height: 100%;
 	padding: 20px;
 	position: absolute;
 	top: 0;
+	left: 0;
 	text-align: center;
-	display: block;
 	cursor: pointer;
 }
-.tile:hover .text-box,
-input[type=checkbox]:checked + label.product > .text-box {
-	display: none;
+.text-box {
+	background: rgba(68,68,68,0.8);
+	display: block;
 }
 .check-box {
 	background: rgba(51,170,255,0.8);
-	color: #fff;
-	height: 100%;
-	padding: 20px;
-	position: absolute;
-	top: 0;
-	text-align: center;
 	display: none;
 }
 .check-box img {
-	width: 50%;
+	max-width: 50%;
 	height: auto;
 	margin: 0 auto;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+.tile:hover .text-box,
+input[type=checkbox]:checked + label.product > .text-box {
+	display: none;
 }
 input[type=checkbox]:checked + label.product > .check-box {
 	display: block;
