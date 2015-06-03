@@ -319,7 +319,7 @@ var products = [
 	},
 	{
 		title: 'Easy Rider',
-		image: 'assets/images/easy_rider.jpg',
+		image: 'assets/images/no-pic.jpg',
 		genre: '05 - Auto & Racing',
 		minorder: '3',
 		frequency: 'M',
