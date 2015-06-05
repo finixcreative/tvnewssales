@@ -1,17 +1,35 @@
 var client = {
-	'company': '',
-	'contact': {
-		'email': '',
-		'phone': '',
-		'fax': '',
-	},
+	'company': 'TV News Sales',
+	'type': 'Co, Inc.',
+	'contacts': [
+		{
+			'type': 'email',
+			'info': 'tvnewssalesco@comcast.net',
+			'method': 'mailto:',
+		},
+		{
+			'type': 'toll-free',
+			'info': '800-692-2067',
+			'method': 'tel:',
+		},
+		{
+			'type': 'phone',
+			'info': '617-471-8306',
+			'method': 'tel:',
+		},
+		{
+			'type': 'fax',
+			'info': '617-471-2501',
+			'method': '',
+		},
+	],
 	'locations': [
 		{
 			'address': {
-				'street': '',
-				'city': '',
-				'state': '',
-				'zip': '',
+				'street': 'P.O. Box 690636',
+				'city': 'Quincy',
+				'state': 'MA',
+				'zip': '02269',
 			},
 			'map': '',
 		},
@@ -19,43 +37,39 @@ var client = {
 	'socials': [
 		{
 			'name': 'facebook',
-			'link': '',
-			'image': '',
+			'link': 'www.facebook.com',
 		},
-		{
+/*		{
 			'name': 'twitter',
-			'link': '',
-			'image': '',
+			'link': 'www.twitter.com',
 		},
 		{
 			'name': 'linkedin',
-			'link': '',
-			'image': '',
+			'link': 'www.linkedin.com',
 		},
 		{
 			'name': 'google+',
-			'link': '',
-			'image': '',
+			'link': 'plus.google.com',
 		},
 		{
 			'name': 'youtube',
-			'link': '',
-			'image': '',
+			'link': 'www.youtube.com',
 		},
 		{
 			'name': 'instagram',
-			'link': '',
-			'image': '',
+			'link': 'www.instagram.com',
 		},
 		{
 			'name': 'pinterest',
-			'link': '',
-			'image': '',
+			'link': 'www.pinterest.com',
+		},
+		{
+			'name': 'yelp',
+			'link': 'www.yelp.com',
 		},
 		{
 			'name': 'tumblr',
-			'link': '',
-			'image': '',
+			'link': 'www.tumblr.com',
 		},
-	],
+*/	],
 };
